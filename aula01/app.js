@@ -5,8 +5,21 @@
 // console.log(1)
 // console.log(2)
 
-// variables
+// variables with let
 let age = 31
-let current_year = 2023
+let currentYear = 2023
 
-console.log(age, current_year)
+// display variables
+console.log(age, currentYear)
+age = 32
+console.log(age)
+
+// imutable constants
+const points = 100
+
+console.log(points)
+
+// variables with var
+var score = 75
+
+console.log(score)
