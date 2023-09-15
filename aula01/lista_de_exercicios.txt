@@ -1,0 +1,3804 @@
+01 - Neste diretório (exercicio-01), há um index.html vazio.
+
+Faça o seguinte:
+
+- Declare uma marcação HTML básica nele;
+- Modifique a linguagem para português do Brasil;
+- Remova as meta tags desnecessárias;
+- Modifique o title para "Exercício 01";
+- E linke este arquivo, app.js, antes do fechamento da tag body.
+*/
+
+/*
+02 - Inicie o seu servidor local e abra o console do browser.
+*/
+
+/*
+03 - Para certificar-se que este arquivo realmente está linkado, exiba a frase  
+"JS is Awesome!" em um alert no browser.
+
+Como mencionei durante a aula: não se preocupe em entender 100% o que os comandos  
+"alert" e "console" fazem. Nós falaremos sobre eles mais à frente =)
+
+Utilize os espaços entre os comentários abaixo para executar os códigos dos 
+exercícios. Inclusive o alert mencionado acima.
+*/
+
+
+
+/*
+04 - Comente o alert que você escreveu acima, utilizando o comentário de uma linha.
+*/
+
+/*
+05 - Declare uma const "myBirthYear", que recebe o ano do seu nascimento, com 4  
+dígitos. Ex.: 1930.
+*/
+
+
+
+/*
+06 - Declare uma const "currentYear", que recebe o ano atual, com 4 dígitos.
+*/
+
+
+
+/*
+07 - Exiba as const "myBirthYear" e "currentYear", lado a lado, no console do browser.
+*/
+
+
+
+/*
+08 - Experimente.
+
+- Declare uma const "myAge", que recebe o ano atual subtraído pelo ano do seu  
+nascimento. Mas sem digitar os números manualmente.
+
+Você pode utilizar o sinal de menos (-) entre os dois valores e verificar o que  
+acontece. 
+
+- Exiba a "myAge" no console.
+*/
+
+
+
+/*
+09 - Antes do console.log abaixo, declare uma const "ten", que recebe o número  
+10 e:
+
+- Descomente o console.log;
+- Substitua a palavra "valor1" pelo ano atual somado à 10;
+- Substitua a palavra "valor2" pela sua idade somada à 10;
+- Os números não devem ser digitados manualmente;
+- Observe o resultado no console do browser.
+
+Não se assuste com as crases e os cifrões. Conversaremos mais sobre operações  
+matemáticas e strings (textos) em breve =)
+*/
+
+// console.log(`Em ${valor1}, estarei com ${valor2} anos.`)
+
+/*
+10 - Abra o site abaixo no browser e faça o seguinte:
+
+http://whathappenedinmybirthyear.com/
+
+- Abra o console do devtools;
+- Provavelmente, haverão alguns warnings nele. Pressione ctrl + L para limpá-lo;
+- No console do devtools, declare uma const "myBirthYear" que recebe o ano em que  
+você nasceu (4 dígitos) e pressione enter;
+- No final da 1ª linha do código abaixo, substitua SEU_ANO_DE_NASCIMENTO pelo uso  
+da const myBirthYear;
+- Cole as duas linhas de código no console, pressione enter, feche o console e  
+veja o que acontece.
+
+
+01 - No index.html deste diretório (exercicio-03):
+
+- Declare uma marcação HTML básica;
+- Linke este arquivo, app.js;
+- Inicie o seu servidor local e abra o console do browser.
+*/
+
+/*
+02 - Armazene um array vazio em uma let "brazilianFoods";
+*/
+
+
+
+/*
+03 - Use o método adequado para adicionar os 3 seguintes itens ao array:
+
+- Coxinha
+- null
+- Brigadeiro
+
+- Exiba a brazilianFoods no console.
+*/
+
+
+
+/*
+04 - Comente o console.log acima e:
+
+- Através de uma reatribuição de valor, faça com que o 2º item do  
+array "brazilianFoods" (null) seja substituído por "Pão de Queijo";
+- Exiba apenas o 2º item desse array no console.
+*/
+
+
+
+/*
+05 - Comente o console.log acima e:
+
+- Armazene em uma const "foodsInfo" a seguinte string: "Até aqui, o  
+array "brazilianFoods" possui NUMERO_DE_ITENS itens: NOME_DO_ITEM_1,  
+NOME_DO_ITEM_2 e NOME_DO_ITEM_3.";
+- Substitua "NUMERO_DE_ITENS" pelo valor correto, mas sem inserir o  
+número diretamente;
+- Substitua as palavras "NOME_DO_ITEM_X" pelas informações corretas,  
+mas sem digitar os nomes das comidas diretamente;
+- Exiba a foodsInfo no console.
+*/
+
+
+
+/*
+06 - Comente o console.log acima e:
+
+- Armazene um array com os itens "Chico" e "Zeca" em uma const  
+"maleDogNames";
+- Agora, em uma const "femaleDogNames", armazene um array com os  
+itens "Lilica" e "Matilda";
+- Declare uma let "dogNames" que recebe a junção dos arrays  
+"maleDogNames" e "femaleDogNames";
+- Exiba a "dogNames" no console.
+*/
+
+
+
+/*
+07 - Comente o console.log acima e:
+
+- Exiba no console uma string com todos os itens do array  
+"dogNames" separados por vírgula e espaço em branco;
+- Utilize o método adequado para fazer isso;
+- O resultado deve ser: "nome1, nome2, nome3, nome4".
+*/
+
+
+
+/*
+08 - Comente o console.log acima e:
+
+- Exiba no console o último item do array "dogNames", mas de  
+forma que caso a quantidade de itens do array aumente ou diminua,  
+o último item continue sendo exibido;
+- Para testar essa lógica, na linha acima do console.log que  
+você acabou de escrever, remova o último item do array "dogNames"  
+utilizando o método adequado para isso;
+- O console deve continuar exibindo o último item do array, que  
+agora é "Lilica".
+*/
+
+
+
+/*
+09 - Comente o console.log acima e:
+
+- Adicione o item "Nina" no final do array "dogNames", utilizando  
+o método adequado para isso;
+- Agora, armazene em uma const "initials" uma template string com  
+apenas as letras iniciais dos nomes do array "dogNames";
+- Exemplo: ['Nala', 'Zé'] resultaria em uma string 'NZ';
+- Não digite as letras diretamente;
+- Exiba a "initials" no console.
+*/
+
+
+
+/*
+10 - Comente o console.log acima e:
+
+- Exiba a "initials" no console, mas com todas as letras minúsculas;
+- Utilize o método adequado para isso.
+*/
+
+
+
+/*
+11 - Comente o console.log acima e:
+
+- Declare uma const "dessert" e faça com que ela receba uma template  
+string que contém a parte "co" do 1º item do array "dogNames", a  
+parte "ca" do 2º item e a parte "na" do 4º item;
+- A string deve resultar na palavra 'cocana', que não deve ser  
+digitada diretamente;
+- No final da string, faça com que a letra "n" seja substituída por  
+"d", utilizando o método adequado para isso;
+- Exiba no console a string abaixo, substituindo "SOBREMESA" pela  
+constante que você criou.
+
+'A SOBREMESA é um doce à base de coco, tradicional na América Latina e em Angola.'
+*/
+
+
+
+/*
+12 - Comente o console.log acima e:
+
+- Declare um array com os números 3, 5, e 7 e o armazene em uma let  
+"oddNumbers";
+- Exiba no console o resultado do 2º item do array elevado ao cubo. O  
+valor exibido deve ser 125;
+- Entre a declaração da "oddNumbers" e a exibição do 2º item do array  
+elevado ao cubo, faça o 2º item do array receber todo o valor que ele  
+já tem, mais 4;
+- Agora, o resultado exibido no console deve ser 729.
+*/
+
+
+
+
+document.querySelector('#birthYear').value = SEU_ANO_DE_NASCIMENTO
+document.querySelector('.formButton').click()
+01 - No index.html deste diretório (exercicio-02):
+
+- Declare uma marcação HTML;
+- Modifique a linguagem para português do Brasil;
+- Remova as meta tags desnecessárias;
+- Modifique o title para "Exercício 02";
+- E linke este arquivo, app.js, antes do fechamento da tag body.
+*/
+
+/*
+02 - Inicie o seu servidor local e abra o console do browser.
+*/
+
+/*
+03 - Exiba a string 'Grandes poderes trazem grandes responsabilidades.' no console do browser.
+
+Utilize os espaços entre os comentários abaixo para executar os códigos dos exercícios. Inclusive este.
+*/
+
+
+
+/*
+04 - Comente o console.log acima, e:
+
+- Armazene a palavra 'Tom' em uma constante "tom";
+- Armazene a palavra 'Hanks' em uma constante "firstTom";
+- Armazene a palavra 'Cruise' em uma constante "secondTom";
+- Declare uma constante "myFavoriteTom" que recebe nome, espaço, e sobrenome do Tom que você mais gosta;
+- Exiba a "myFavoriteTom" no console do browser.
+*/
+
+
+
+/*
+05 - Comente o console.log acima, e:
+
+- Armazene a palavra 'JavaScript' em uma constante "programmingLanguage";
+- Armazene a junção das letras "J" e "S", da programmingLanguage, em uma constante "js";
+- As letras não devem ser digitadas manualmente;
+- Exiba a "js" no console do browser;
+*/
+
+
+
+/*
+06 - Comente o console.log acima, e,
+
+- Armazene, em uma constante "mdn", a junção das letras iniciais das 3 palavras que a constante "mozilla" armazena;
+- As iniciais não devem ser digitadas manualmente;
+- Exiba a "mdn" no console do browser;
+*/
+
+const mozilla = 'Mozilla Developer Network'
+
+/*
+07 - Comente o console.log acima, e,
+
+- Exiba no console do browser a quantidade de caracteres que a constante "programmingLanguage" possui;
+*/
+
+
+
+/*
+08 - Comente o console.log acima, e,
+
+- Exiba no console a última letra da string que a "randomWord" (abaixo) armazena, mas com a condição a seguir;
+- Ao invés de inserir manualmente a posição do último caractere, faça com que a obtenção da última letra funcione para qualquer palavra que a "randomWord" receber;
+- Dica: utilize a propriedade ".length".
+*/
+
+let randomWord = 'Araponga'
+
+/*
+09 - Comente o console.log acima, e,
+
+- Exiba, no console, a string que "summerMessage" (abaixo) armazena, mas com todas as letras minúsculas;
+- Não modifique a string da "summerMessage";
+- Não digite a nova string manualmente.
+*/
+
+const summerMessage = 'O VERÃO CHEGA NESTE FIM DE SEMANA'
+
+/*
+10 - Comente o console.log acima, e,
+
+- Exiba, no console, a string que "winterMessage" (abaixo) armazena, mas com todas as letras maiúsculas;
+- Não modifique a string da "winterMessage";
+- Não digite a nova string manualmente.
+*/
+
+const winterMessage = 'o inverno está chegando'
+
+/*
+11 - Comente o console.log acima, e,
+
+- Exiba, no console, o index do caractere "v" da "winterMessage";
+*/
+
+
+
+/*
+12 - Comente o console.log acima, e,
+
+- Exiba, no console, o index da última ocorrência do caractere "n" da "winterMessage".
+*/
+
+
+
+/*
+13 - Comente o console.log acima, e,
+
+- Após a const "harryPotterAuthor" (abaixo), exiba no console a parte "J.K." da string "harryPotterAuthor";
+- Não digite a string "J.K." manualmente;
+*/
+
+const harryPotterAuthor = 'J.K. Rowling'
+
+/*
+14 - Comente o console.log acima, e,
+
+- Após a const "bestMovie" (abaixo), declare uma constante "realBestMovie";
+- Atribua à "realBestMovie" a mesma string da "bestMovie", mas substituindo o nome do filme para "Moonlight";
+- Exiba a "realBestMovie" no console.
+*/
+
+const bestMovie = 'E o Oscar de melhor filme vai para: "La la land"!'
+
+/*
+15 - Comente o console.log acima, e,
+
+- Abaixo deste comentário, armazene o resto de 10 dividido por 3 em uma constante "reminder";
+- Exiba a reminder no console. O resultado deve ser 1;
+*/
+
+
+
+/*
+16 - Comente o console.log acima, e,
+
+- Abaixo da let "episodes", incremente o valor dela em 1;
+- Após o incremento, exiba a let "episodes" no console;
+- O valor exibido no console deve ser 7.
+*/
+
+let episodes = 6
+
+/*
+17 - Comente o console.log acima, e,
+
+- Decremente a let "episodes" em 1;
+- Após o decremento, exiba a let "episodes" no console;
+- O valor exibido no console deve ser 6.
+*/
+
+
+
+/*
+18 - Comente o console.log acima, e,
+
+- Utilize o operador addition assignment para atualizar o valor da let "episodes" para 10;
+- Após a atribuição, exiba a let "episodes" no console.
+*/
+
+
+
+/*
+19 - Comente o console.log acima, e,
+
+- Abaixo deste comentário, armazene a string 'O nº de episódios é: NUMERO_DE_EPISÓDIOS' em uma constante "allEpisodes";
+- Insira a let "episodes" no lugar de "NUMERO_DE_EPISÓDIOS";
+- Exiba a "allEpisodes" no console.
+*/
+
+
+
+/*
+20 - Comente o console.log acima, e,
+
+- Descomente a const "bookMessage" e o console.log abaixo;
+- Encontre uma forma de incluir as aspas simples do nome do livro na string;
+- Não modifique nenhuma aspas da string para aspas duplas.
+- Não use template strings.
+*/
+
+// const bookMessage = ''O Conto da Aia' é um dos livros mais vendidos da década.'
+// console.log(bookMessage)
+
+/*
+21 - Comente o console.log acima (e a const bookMessage caso não tenha descoberto a resolução), e,
+
+- Após a const "name" (abaixo), declare uma let "newName";
+- A let "newName" deverá armazenar uma string ES5 com o mesmo valor que "name" armazena;
+- Só que com as letras iniciais do nome e sobrenome maiúsculas;
+- Não digite a nova string manualmente.
+- Não modifique a string da const "name";
+- Exiba a "newName" no console;
+*/
+
+const name = 'walter white'
+
+/*
+22 - Comente o console.log acima, e,
+
+- Atribua à "newName" uma template string;
+- A template string deverá resultar no mesmo valor que a "newName" tinha anteriormente (nome e sobrenome com letras iniciais maiúsculas);
+- Não digite a nova string manualmente.
+- Não modifique a string da const "name";
+- Exiba a "newName" no console;
+*/
+  - A partir deste exercício, você está livre para escolher os nomes das suas  
+    variáveis e constantes!
+
+  - Após resolver cada exercício, tente reescrever partes do seu código para  
+    deixá-lo mais legível.
+    
+    Por exemplo, uma expressão typeof crazyArray[i] === 'boolean' pode ser  
+    armazenada em uma constante "isItemABoolean".
+
+    Falaremos mais sobre legibilidade na revisão destes exercícios =)
+*/
+
+/*
+  01
+
+  - Abaixo do array "fruits", verifique se "abacaxi" existe no array. Se  
+    existir, exiba no console a mensagem "A string "abacaxi" existe no array  
+    fruits.";
+  - Se "abacaxi" não existir, verifique se "pera" existe no array. Se existir,  
+    exiba no console a mensagem "A string "pera" existe no array fruits.";
+  - Se nenhuma das duas frutas existirem no array, exiba no console a mensagem  
+    "Nem pera nem abacaxi existem no array "fruits".".
+*/
+
+const fruits = ['morango', 'banana', 'mamão']
+
+/*
+  02
+
+  - Armazene em uma constante apenas a hora atual na qual você está fazendo este  
+    exercício. Ex.: 18;
+  - À partir das 6, exiba "Bom dia!" no console;
+  - À partir das 12, exiba "Boa tarde!";
+  - À partir das 18, exiba "Boa noite!".
+
+  Obs.: tanto a expressão do lado esquerdo quanto a do lado direito do operador  
+  lógico precisam ter a constante especificada. Exemplo: hour > x && hour < y.
+*/
+
+/*
+  03
+
+  - Armazene sua idade em uma constante;
+  - Escreva uma estrutura condicional em que, se a idade é 7 anos ou menos, ou  
+    se a idade é 65 anos ou mais, a frase "Para você, a entrada é grátis!" é  
+    armazenada em uma variável;
+  - Se a idade não atende às condições acima, a variável deve armazenar a  
+    mensagem "A entrada é R$ 30,00.";
+  - Exiba a mensagem no console;
+  - Agora, teste diferentes idades para se certificar que a condição do `if`  
+    também está funcionando.
+*/
+
+/*
+  04
+
+  - Utilize um for loop para gerar um novo array com apenas os números entre  
+    11 e 90 presentes no array "numbers" (incluindo 11 e 90);
+  - Exiba o novo array no console;
+  - O resultado deve ser: [34, 46, 90, 25, 11, 89, 76].
+*/
+
+const numbers = [7, 92, 34, 46, 90, 25, 11, 3, 89, 76, 99]
+
+/*
+  05
+
+  - O array "crazyArray" (abaixo) possui 3 tipos de dados: numbers, booleans  
+    e strings;
+  - Considerando este array, substitua os "X" da frase abaixo pelas informações  
+    corretas;
+  - Gere essas informações à partir de um for loop;
+  - Exiba a frase no console.
+
+  "O crazyArray tem X booleans, X números e X strings."
+*/
+
+const crazyArray = [true, 869, 'oi', 71, false, 83, '35', true, 397, 'js', false]
+
+/*
+  06
+
+  - Abaixo do array "randomNumbers", utilize um for loop para gerar 2 novos  
+    arrays: um array com apenas os números ímpares do "randomNumbers" e um outro  
+    array com apenas os números pares;
+  - Após isso, utilizando os dois arrays que você criou, exiba a frase abaixo  
+    no console, substituindo "XX, XX e XX" pelos números corretos. Os números  
+    da frase não devem ser inseridos com a notação "item[index]" e os "e" antes  
+    do último número ímpar e do último número par devem constar na frase;
+  
+  - Dica: para saber se um número é par, o restante da divisão dele por 2 deve  
+    ser 0.
+
+  "Numeros ímpares: XX, XX e XX. Números pares: XX, XX e XX."
+*/
+
+const randomNumbers = [73, 4, 67, 10, 31, 58]
+
+
+Esse post � s� pra avisar que, no �ltimo exerc�cio da pr�xima aula, mais ou menos aos 22:42, eu come�o a mostrar como refatorar, uma template string atrav�s da declara��o de duas consts para melhorar a legibilidade do c�digo.
+
+
+Ao declarar as duas consts, eu inverti os nomes delas.
+
+
+O correto � que a const evenNumbersString armazene a express�o que resulta na string com os n�meros pares e a const oddNumbersString armazene a express�o que resulta na string com os n�meros �mpares.
+
+
+Ficaria assim:
+
+
+const oddNumbersString = oddNumbers.join(', ').replace(', 3', ' e 3')
+
+const evenNumbersString = evenNumbers.join(', ').replace(', 5', ' e 5')
+
+
+console.log(`Numeros �mpares: ${oddNumbersString}. N�meros pares: ${evenNumbersString}.`)
+
+
+Foi apenas um erro no momento de nomear as consts, mas pode confundir algu�m.
+
+
+Se mesmo com este aviso houverem dificuldades em entender essa parte (ou qualquer outra) da revis�o, � s� abrir uma issue no reposit�rio do curso, linkado aqui abaixo e eu te ajudarei a esclarecer as suas d�vidas.
+
+
+Estou aqui para te ajudar em sua jornada rumo � flu�ncia em JavaScript. No que for preciso. Conte comigo =)
+
+
+Atenciosamente,
+
+
+Roger
+
+
+  01 - Suba o seu servidor local e:
+
+  - Armazene em uma constante "my3FavoriteTVShows" suas 3 séries favoritas;
+  - Se você não assiste séries, armazene seus 3 filmes favoritos;
+  - Armazene em uma constante "sentence" a frase abaixo, modificando "SÉRIE_01,  
+    SÉRIE_02 e SÉRIE_03" para as suas séries favoritas;
+  - O "e" antes do nome da última série deve ser mantido;
+  - Forme essa frase sem digitar o nome das séries (claro) e sem utilizar  
+    a notação "array[index]";
+  - Exiba a frase no console.
+
+  "Minhas 3 séries favoritas são: SÉRIE_01, SÉRIE_02 e SÉRIE_03."
+*/
+
+
+let array =[2,1010,"ola"]
+/*
+  02 - Comente o console.log() acima e:
+
+  - Exiba no console um boolean indicando se o array de séries que você criou  
+    possui 3 itens.
+*/
+
+var verdad= (array.length==3)
+//console.log(verdad)
+
+/*
+  03 - Comente o console.log() acima e:
+
+  - Após a constante abaixo, armazene em uma constante "isRandomTVShowIncluded"  
+    um boolean que indica se a série que a "randomTVShow" armazena é uma das  
+    suas 3 séries favoritas;
+  - Utilize o método adequado para fazer essa verificação;
+  - Exiba no console o boolean que a "isRandomTVShowIncluded" recebeu.
+*/
+
+const randomTVShow = 'Watchmen'
+const isRandomTVShowIncluded=array.includes('Watchmen')
+console.log(isRandomTVShowIncluded)
+/*
+  04 - Comente o console.log() acima e:
+
+  - Armazene a frase abaixo em uma constante "typeSentence", substituindo  
+    "TIPO_DE_DADO" pela informação correta;
+  - Utilize o operador adequado para gerar essa informação;
+  - Exiba a "typeSentence" no console.
+
+  "O tipo de dado que a const "isRandomTVShowIncluded" armazena é: TIPO_DE_DADO."
+*/
+
+
+
+/*
+  05 - Comente o console.log() acima e:
+
+  - Exiba a frase abaixo no console, substituindo "NÚMERO_DE_CARACTERES" por 39  
+    e "BOOLEAN" pela informação correta (true ou false);
+  - Converta explicitamente este boolean em uma string ao inserí-lo na frase;
+  - A 1ª letra do boolean deve ser maiúscula;
+  - Dica: se você perceber que está repetindo o mesmo número na string, cogite  
+    armazenar este número em uma constante e usá-la na frase.
+
+  "A string que a "typeSentence" armazena tem mais de NÚMERO_DE_CARACTERES  
+  caracteres? BOOLEAN."
+*/
+
+
+
+/*
+  06 - Comente o console.log() acima e:
+
+  - Após a constante "falsyValues", exiba no console a frase abaixo,  
+    substituindo "NÚMERO_DE_ITENS" e "BOOLEAN" pelas informações corretas.
+
+  "Todos os NÚMERO_DE_ITENS itens do array "falsyValues" são falsy. Inclusive o  
+  BOOLEAN."
+*/
+
+const falsyValues = [0, "", false, '', ``, null, undefined, NaN]
+
+/*
+  07 - Comente o console.log() acima e:
+
+  - Armazene em uma constante "crazyOperation" a soma entre null e 1;
+  - Armazene em uma constante "crazyConversion" a conversão da "crazyOperation"  
+    em boolean.
+  - Você sabe por que essa conversão resultou em true?
+*/
+
+
+
+/*
+  08 - Comente o console.log() acima e:
+
+  - Armazene em uma constante "ages" um array com os números 31, 82, 61 e 11;
+  - Armazene em uma constante "agesSum" a soma entre 1º e 3º itens do array  
+    "ages";
+  - Exiba a frase abaixo no console, substituindo "BOOLEAN" pela informação  
+    correta.
+
+  "A soma entre o 1º e o 3º item de "ages" é menor ou igual a 92. Essa afirmação  
+  é: BOOLEAN."
+*/
+
+
+
+/*
+  09 - Comente o console.log() acima e:
+
+  - Armazene em uma const "isNotAString" uma expressão que verifica se o tipo de  
+    dado que a "randomTVShow" armazena não é uma string;
+  - Essa expressão deve resultar em false.
+  - Exiba a "isNotAString" no console.
+*/
+
+
+
+/*
+  10 - Comente o console.log() acima e:
+
+  - Abaixo da constante "evenNumbers", exiba no console um boolean que indica se  
+    o número 8 existe no array;
+  - Não utilize o método includes desta vez.
+*/
+
+const evenNumbers = [0, 2, 4, 6, 8, 10]
+  Aviso: se você executar, acidentalmente, um loop infinito, faça o seguinte:
+  
+  - Feche o navegador;
+  - Desconecte o servidor;
+  - Modifique o seu código para que o looping infinito não aconteça;
+  - E só então, levante o servidor novamente.
+*/
+
+/*
+  01
+
+  - Utilizando um while loop, exiba no console todos os números entre 0 e 5,  
+    inclusive esses dois.
+  - O resultado deve ser:
+    0
+    1
+    2
+    3
+    4
+    5
+*/
+
+
+
+/*
+  02 - Comente a declaração da let e o loop acima e:
+
+  - Utilizando um for loop, faça o mesmo que foi pedido no exercício 01.
+*/
+
+
+
+/*
+  03 - Comente o loop acima e:
+
+  - Escreva um loop (for ou while) que exiba a frase abaixo no console;
+  - Substitua o "X" pela informação correta;
+  - "X" deve começar em 1 na 1ª exibição da frase e em 10 na última;
+  - Exiba a frase 10x no console.
+
+  "Esta é a Xª vez que esta frase é exibida no console."
+*/
+
+
+
+/*
+  04 - Comente o loop acima e:
+
+  - Abaixo da constante "cities", declare uma let "upperCaseCities" e atribua à  
+    ela um array vazio;
+  - Adicione no array que a "upperCaseCities" armazena as cidades do array  
+    cities com todas as letras maiúsculas, utilizando o for loop.
+  - Para ver se deu certo, exiba o upperCaseCities no console.
+*/
+
+const cities = ['São Paulo', 'Rio de Janeiro', 'Minas Gerais']
+
+/*
+  05 - Comente o console.log acima e:
+
+  - Após a const names, utilize um for loop para gerar um template HTML;
+  - Exiba no console o template HTML que você gerou;
+  - O template deve ser exibido apenas uma vez no console e o resultado deve ser:
+    <li>João Grilo</li><li>Chicó</li><li>Rosinha</li>
+*/
+
+const names = ['João Grilo', 'Chicó', 'Rosinha']
+
+/*
+  06 - Comente o console.log acima e:
+
+  - Após a const numbers, utilize um for loop para somar todos os números do  
+    array;
+  - Exiba no console um boolean indicando se o total dessa soma é 337;
+  - O console deve exibir true.
+*/
+
+const numbers = ['91', '5', '30', '97', '83', '31']
+
+/*
+  07 - Comente o console.log acima.
+
+  Este exercício é um pouco mais complexo que os anteriores. Não se preocupe  
+  muito caso você não acerte ele. Apenas tente resolvê-lo com o conhecimento  
+  adquirido até aqui.
+
+  - O JavaScript permite você criar arrays dentro de um outro array. Isso é  
+    chamado de aninhamento de arrays, ou nested arrays em inglês. Por isso, o  
+    array "arrays" abaixo é uma sintaxe válida. Cada array dentro do array  
+    "arrays" é um item;
+  - Abaixo do array "arrays", utilizando o for loop, some todos os números  
+    destes arrays.
+  - Após o for, exiba no console o resultado, que deve ser 218.
+
+  Dica: você pode colocar um loop dentro do outro, ou seja, aninhá-los. =)
+*/
+
+const arrays = [
+  [4, 32, 8],
+  [64, 8, 32],
+  [8, 32, 16],
+  [2, 8, 4]
+]
+  01
+
+  - Inverta o valor dos booleans do console.log() abaixo;
+  - O resultado exibido no console deve ser: false true.
+*/
+
+console.log(true, false)
+
+/*
+  02
+
+  - Abaixo do array "animals", verifique se o animal "leão" **não** existe no  
+    array. Se não existir, exiba no console a mensagem "Leão não existe no array  
+    animals.";
+  - Se existir, exiba no console a mensagem "Existe um leão no array animals.".
+*/
+
+const animals = ['macaco', 'tucano', 'elefante', 'pavão', 'hipopótamo']
+
+/*
+  03
+
+  - Some os números do array abaixo;
+  - Se durante a soma, o resultado ultrapassar 400, pare a operação e exiba  
+    a frase abaixo no console, substituindo "RESULTADO_DA_SOMA" pelo valor  
+    correto.
+  
+  "A soma ultrapassou 400. Até aqui, o valor atual é RESULTADO_DA_SOMA."
+*/
+
+const randomNumbers = [59, 61, 73, 57, 35, 73, 21, 87, 43]
+
+/*
+  04
+
+  - Concatene as strings do array abaixo, formando uma frase;
+  - Se durante a concatenação a palavra "certeza" existir, ela não deve ser  
+    concatenada;
+  - Exiba a frase no console.
+*/
+
+const sentence = ['A', 'certeza', 'dúvida', 'é', 'o', 'princípio', 'da', 'sabedoria.']
+
+/*
+  05
+
+  - Itere sobre o array "randomValues" apenas até a 4ª string dele;
+  - Exiba a string abaixo no console, mantendo a formatação de lista e inserindo  
+    as informações corretas:
+
+  "
+    3 informações sobre o array randomValues:
+      - As primeiras 4 strings são XX, XX, XX e XX;
+      - Até que as primeiras 4 strings fossem iteradas, XX booleans foram iterados;
+      - O array foi iterado por XX vezes.
+  "
+*/
+
+const randomValues = [57, false, 'JS', [], true, 'HTML', 31, null, false, 'CSS', 97, true, 'Git', 11, 'sticker', false, 'GitHub', true, null]
+
+/*
+  06
+
+  - Descomente a constante abaixo atribua a ela algum tipo de bebida. Exemplo:  
+    água, refrigerante ou suco;
+  - Utilize um switch statement com cases para essas 3 possibilidades de bebida;
+  - Se o tipo da bebida é água, atribua à uma variável a mensagem "Substância 
+    química cujas moléculas são formadas por dois átomos de hidrogênio e um de 
+    oxigênio.";
+  - Se o tipo da bebida é refrigerante, a mensagem "Bebida não alcoólica e não 
+    fermentada, fabricada industrialmente, à base de água mineral e açúcar." 
+    deve ser armazenada;
+  - Se é suco, atribua a mensagem "Bebida produzida do líquido extraído de 
+    frutos.";
+  - Se nenhum desses 3 tipos de bebida der match, a variável deve armazenar 
+    "Bebida desconhecida.";
+  - Exiba a mensagem no console. Teste também as outras possibilidades de tipo  
+    da bebida além da que você escolheu.
+*/
+
+// const drinkType
+
+/*
+  07
+
+  - Reescreva o código comentado abaixo, utilizando um switch statement;
+  - Depois de escrever o switch, modifique o valor da declaração da const "a"  
+    para testar o switch que você escreveu.
+*/
+
+const a = 2
+
+// if (a === 0) {
+//   console.log(`O valor de "a" é ${a}`)
+// } else if (a === 1) {
+//   console.log(`O valor de "a" é ${a}`)
+// } else {
+//   console.log('O valor de "a" é qualquer número, exceto 0 e 1')
+// }
+  01
+
+  - Utilizando function declaration, implemente uma função que recebe 2 números  
+    por parâmetro e retorna o resultado da multiplicação entre esses 2 números;
+  - Previna que esses parâmetros recebam undefined;
+  - Exiba o resultado no console, sem inserir um console.log() dentro da função.
+*/
+
+/*
+  02
+
+  - Faça o mesmo que o exercício acima pede, mas desta vez, implemente uma  
+    **function expression** que retorne o resultado da **divisão** entre esses  
+    2 números.
+*/
+
+/*
+  03
+
+  - Implemente uma função que apenas exibe no console o valor recebido por  
+    parâmetro;
+  - Previna que o parâmetro dessa função receba undefined;
+  - Faça a string abaixo ser exibida 7x no console;
+  - A cada exibição, substitua o "X" pela informação correta;
+  - Não repita (manualmente) a invocação da função ou do console.log().
+
+  "Esta é a Xª vez que essa string é exibida."
+*/
+
+/*
+  04
+
+  - Comente o código acima, de forma que a string não seja mais exibida no  
+    console;
+  - Implemente uma função que retorna um novo array com as strings do array  
+    "millennialWords" em letras maiúsculas;
+  - Exiba o novo array no console, sem inserir um console.log() dentro da  
+    função.
+*/
+
+const millennialWords = ['lol', 'yolo', 'troll', 'stalkear', 'selfie', 'influencer', 'crush', 'fitness', 'hater', 'bae', 'random', 'kawaii', 'outfit', 'mood', 'fail']
+
+/*
+  05
+
+  - Implemente uma função que retorna se um número é positivo;
+  - Use essa função para descobrir quantos números positivos o array 
+    "randomNumbers" possui;
+  - Exiba a frase abaixo no console, inserindo as informações corretas.
+
+  "O array "randomNumbers" possui XX números, sendo XX positivos e XX negativos."
+*/
+
+const randomNumbers = [-2, 93, 34, -1, 1, 93, 11, -7, 47, -3]
+
+/*
+  06
+
+  - Descomente a invocação da função abaixo e implemente-a;
+  - Ela deve retornar um novo array com apenas os números ímpares do array 
+    passado por argumento;
+  - Exiba o novo array no console, sem inserir um console.log() dentro da  
+    função.
+*/
+
+// getOddNumbers([83, 52, 31, 73, 98, 37, 61, 56, 12, 24, 35, 3, 34, 80, 42])
+
+/*
+  07
+
+  - Forme uma frase com o array abaixo e exiba-a no console.
+*/
+
+const functions = [
+  function () { return 'Plymouth' },
+  function () { return 'é' },
+  function () { return 'uma' },
+  function () { return 'cidade' },
+  function () { return 'fantasma' },
+  function () { return 'localizada' },
+  function () { return 'na' },
+  function () { return 'ilha' },
+  function () { return 'de' },
+  function () { return 'Montserrat,' },
+  function () { return 'um' },
+  function () { return 'território' },
+  function () { return 'ultramarino' },
+  function () { return 'do' },
+  function () { return 'Reino' },
+  function () { return 'Unido' },
+  function () { return 'localizado' },
+  function () { return 'na' },
+  function () { return 'cadeia' },
+  function () { return 'de' },
+  function () { return 'Ilhas' },
+  function () { return 'de' },
+  function () { return 'Sotavento' },
+  function () { return 'nas' },
+  function () { return 'Pequenas' },
+  function () { return 'Antilhas,' },
+  function () { return 'Índias' },
+  function () { return 'Ocidentais.' }
+]
+  Dica:
+
+  - Alguns exercícios utilizarão métodos, propriedades e funcionalidades vistos  
+    no começo do curso. Se for necessário, reveja partes das aulas anteriores  
+    para relembrar.
+*/
+
+/*
+  01
+
+  - Converta a função abaixo em uma arrow function e utilize-a para exibir um  
+    valor no console.
+*/
+
+function convertToString (value) {
+  return String(value)
+}
+
+/*
+  02
+
+  - Crie uma função que retorne a quantidade de caracteres que uma string  
+    recebida por parâmetro possui.
+*/
+
+/*
+  03
+
+  - Crie uma função que retorne todos os caracteres de uma string em letras  
+    minúsculas;  
+  - Utilize a função para exibir a string abaixo no console.
+
+  "CHOCOTONE E OVO DE PÁSCOA JUNTOS NO MERCADO EM PLENO FEVEREIRO"
+*/
+
+/*
+  04
+
+  - Crie uma função que recebe 2 parâmetros: um caractere e uma string;
+  - Ao ser invocada, a função deve retornar o index do caractere na string.
+*/
+
+/*
+  05
+
+  - Crie uma função que, ao ser invocada, retorna um boolean indicando se o item  
+    passado por argumento existe no array (também passado por argumento).
+*/
+
+/*
+  06
+
+  - Crie uma função que retorna a concatenação de 2 arrays, passados como  
+    argumentos em sua invocação;
+*/
+
+/*
+  07
+
+  - Crie uma função que retorna o array passado como argumento em sua invocação,  
+    mas com o último item removido.
+*/
+
+/*
+  08
+
+  - Crie uma função que retorna se o valor passado como argumento em sua  
+    invocação é null.
+*/
+
+/*
+  09
+
+  - Crie uma função que apenas invoca uma função de callback recebida por  
+    parâmetro;
+  - Crie outra função que apenas exibe seu nome no console;
+  - Invoque a função que recebe um callback por parâmetro, passando como  
+    argumento a função que exibe seu nome no console e veja se o nome realmente  
+    foi exibido.
+*/
+
+/*
+  10
+
+  - Crie uma função que invoca uma função de callback recebida por parâmetro.  
+    A invocação da função recebida por parâmetro deve receber um valor como  
+    argumento;
+  - Crie uma função que retorna o triplo de um número recebido por parâmetro;
+  - Faça com que a invocação da função descrita no 1º item deste exercício (10)  
+    resulte no triplo de 33.
+*/
+
+/*
+  11
+
+  - Utilizando um forEach, baseado no array "numbers", a cada iteração, exiba a  
+    mensagem abaixo no console, substituindo os "X" pelas informações corretas;
+  
+  "O Xº item do array [X, X, X] é X."
+*/
+
+const numbers = [1, 2, 3]
+
+/*
+  12
+
+  - Converta o for loop abaixo em um forEach;
+  - Após a conversão, verifique se a cópia do array lettersCopy realmente foi  
+    criada.
+*/
+
+const letters = ['v', 'e', 'p']
+let lettersCopy = []
+
+for (let i = 0; i < letters.length; i++) {
+  lettersCopy.push(letters[i])
+}
+
+/*
+  13
+
+  - Inclua o markup abaixo em seu index.html;
+  - Gere um template HTML com parágrafos. Cada parágrafo deve conter um item do  
+    array "review";
+  - Ao gerar o template, verifique no browser se os parágrafos foram incluídos  
+    dentro da section vazia do markup abaixo.
+
+  <article>
+    <header>
+      <h1>Sobre "Jurassic Park"</h1>
+    </header>
+
+    <section data-js="section"></section>
+  </article>
+*/
+
+const section = document.querySelector('[data-js="section"]')
+
+const review = [
+  'Eu sempre adorei o filme e quando descobri que tinha o livro também fiquei doido. Demorei um pouco mas acabei comprando e finalmente li \o/.',
+  'O primeiro filme foi baseado nesse livro, porém o livro (como sempre) é muito mais completo, com mais personagens, mais acontecimentos e até mesmo mais dinossauros. Na verdade nesse livro tem coisas do segundo e terceiro filme também, eles mudaram bastante nos filmes, acho que pra ficar mais comercial, e se o filme é bom, o livro é 100 vezes melhor.',
+  'Michael é um ótimo autor, esse sim pesquisa muito antes de escrever um livro, além da história que já prende sua atenção, ele fala bastante de genética (pra explicar como os dinossauros foram criados) e acaba falando um pouco de programação (informática), por causa dos programas avançados e modernos que o parque tinha. E isso foi uma das coisas que eu achei muito legal, ele explica as coisas com gráficos, tabelas, códigos ... enfim, o cara é foda hahaha.',
+  'Recomendo esse livro pra quem curte uma boa história de ficção. Apesar de muita gente pensar que o livro não tem graça, porque o legal mesmo é ver o dinossauro no filme, com todos os efeitos especiais, eu digo pra deixar esse pensamento de lado, pois a história é tão bem contada e os detalhes são tão bem relatados, que você passa a fazer parte da história, e vive todas as emoções hahaha.'
+]
+
+let paragraphs = ''
+
+section.innerHTML = paragraphs
+
+/*
+  14
+
+  - Implemente uma função que retorna uma string com a quantidade de pessoas que  
+    curtiram um post, conforme descrito a seguir;
+  - A função deve receber por parâmetro um array com os nomes das pessoas que  
+    curtiram o post/vídeo/foto;  
+  - Se o array recebido estiver vazio, a mensagem que a função deve retornar é  
+    "Ninguém curtiu isso";  
+  - Se o array conter apenas um nome, como "Rafael", por exemplo, a mensagem  
+    retornada deve ser "Rafael curtiu isso";  
+  - Se o array conter 2 nomes, a mensagem retornada deve ser  
+    "NOME_1 e NOME_2 curtiram isso";  
+  - Se o array conter 3 nomes, a mensagem retornada deve ser  
+    "NOME_1, NOME_2 e NOME_3 curtiram isso";  
+  - Se o array conter 4 ou mais nomes, a mensagem retornada deve ser  
+    "NOME_1, NOME_2 e mais X pessoas curtiram isso". O "X" deve ser substituído  
+    pelo restante da quantidade de pessoas que curtiram o post (além das duas  
+    pessoas já mencionadas no início da mensagem).
+*/
+  01
+
+  - Crie um objeto "cat" que possui as seguintes propriedades:
+    - name, que recebe o nome do gato;
+    - age, que recebe a idade;
+    - color, que recebe a cor;
+    - bestFriends, que recebe um array com os melhores amigos do gato;
+    - sound, que é um método que retorna o miado do gato.
+  - Exiba o objeto no console.
+*/
+
+/*
+  02
+
+  - Exiba a mensagem abaixo no console, substituindo os "X" pelas informações  
+    corretas.
+
+  Até aqui, o objeto "cat" possui as seguintes propriedades e valores: "name", que recebeu "X", "age", que recebeu "X", "color", que recebeu "X", "bestFriends", que recebeu um array com os itens "X" e "X", e "sound", que recebeu uma função que retorna "X".
+*/
+
+/*
+  03
+
+  - Adicione 2 anos à idade do gato e exiba a idade atualizada no console.
+*/
+
+/*
+  04
+
+  - Crie uma função que adiciona um amigo(a) no array de amigos do gato;
+  - Exiba o array de amigos no console para verificar se o novo amigo(a) foi  
+    adicionado.
+*/
+
+/*
+  05
+
+  - Crie uma função que adiciona mais uma cor à cor do gato;
+  - Utilize a sintaxe de colchetes para fazer isso;
+  - Exiba a nova cor do gato no console, também utilizando a sintaxe de  
+    colchetes.
+*/
+
+/*
+  06
+
+  - Crie uma função que retorna um boolean indicando se um valor recebido por  
+    parâmetro é um objeto;
+  - Utilize a função para exibir no console se "cat" é um objeto.
+*/
+
+/*
+  07
+
+  - Crie um objeto "dog" que possui as mesmas propriedades do objeto "cat";
+  - Crie uma função que retorna a mensagem abaixo, com as informações corretas;
+  - Exiba a mensagem no console.
+
+  "A soma das idades de NOME_DO_GATO e NOME_DO_CACHORRO é RESULTADO_DA_SOMA."
+*/
+
+/*
+  08
+
+  - Se você descomentar os 2 console.log abaixo, verá que a função "isAnSUV"  
+    está funcionando corretamente. Mas ela pode ser melhorada;
+  - Como você refatoraria esta função?
+*/
+
+const isAnSUV = car => {
+  if (car === 'Honda HR-V' || car === 'Jeep Renegade' || car === 'Ford EcoSport' || car === 'Hyundai iX35') {
+    return true
+  }
+
+  return false
+}
+
+// console.log(isAnSUV('Honda Civic'))
+// console.log(isAnSUV('Ford EcoSport'))
+
+/*
+  09
+
+  - Crie uma função que recebe um parâmetro 'type';
+  - Dentro da função, crie um objeto com as seguintes propriedades:
+    - null, que recebe a mensagem 'Seta, explicitamente, uma variável sem valor.'
+    - undefined, que recebe a mensagem 'Representa um valor não-setado.'
+    - object, que recebe a mensagem 'Arrays, Datas, Objetos literais, Funções, etc.'
+  - Se o valor que o parâmetro type receber corresponder à alguma das 3  
+    propriedades, retorne a mensagem que a propriedade armazena;
+  - Teste a função, exibindo no console a mensagem de cada propriedade.
+*/
+  01
+
+  - Declare uma constante que recebe o seu nome;
+  - Ela deve ter um escopo global.
+*/
+
+/*
+  02
+
+  - Funções também são blocos de código;
+  - Crie uma função que ao ser invocada, exibe sua idade no console;
+  - Dentro da função, declare uma let que armazena a sua idade;
+  - Exiba sua idade no console, através da invocação da função;
+  - Do lado de fora da função exiba no console o valor da let que foi declarada  
+    dentro da função;
+  - Um erro com a mensagem "Uncaught ReferenceError: SUA_VARIÁVEL is not  
+    defined" será exibido no console;
+  - Você sabe por que isso aconteceu?
+*/
+
+/*
+  03
+
+  - Crie um objeto "car" com as seguintes propriedades e métodos:
+    - name, que recebe o nome do carro;
+    - brand, que recebe a marca do carro;
+    - colors, que recebe 3 cores para o carro;
+    - isRunning, que recebe um boolean indicando se o carro está em movimento.  
+      Inicialmente, deve receber um boolean indicando que o carro não está em  
+      movimento;
+    - run, que é um método que faz o carro andar e retorna a mensagem  
+      "O NOME_DO_CARRO está em movimento";
+    - stop, que é um método que faz o carro parar e retorna a mensagem  
+      "O NOME_DO_CARRO está parado";
+    - getColorsMessage, que é um método que retorna a mensagem  
+      "O NOME_DO_CARRO está disponível nas cores COR_01, COR_02 e COR_03".
+*/
+
+/*
+  04
+
+  - Faça o carro andar e exiba no console se ele realmente está em movimento.
+*/
+
+/*
+  05
+
+  - Faça o carro parar e exiba no console se ele realmente está parado.
+*/
+
+/*
+  06
+
+  - Exiba, no console, a mensagem com as cores do carro.
+*/
+
+/*
+  07
+
+  - Exiba, no console, a mensagem "O carro é um MARCA_DO_CARRO NOME_DO_CARRO";
+  - Utilize a notação de colchetes para acessar as propriedades do carro.
+*/
+  01
+
+  - Adicione apenas uma linha de código dentro da função "getCatInfo" para fazer  
+    com que as informações do gato estejam disponíveis fora da função;
+  - Abaixo da função "getCatInfo", exiba no console a seguinte mensagem:
+
+  "NOME_DO_GATO é um gato COR_DO_GATO de IDADE_DO_GATO anos."
+*/
+
+const getCatInfo = () => {
+  const name = 'Marcos'
+  let age = 3
+  const color = 'Cinza'
+}
+
+/*
+  02
+
+  - Adicione apenas duas linhas de código dentro da função "external" para  
+    exibir no console a string que a const movie armazena, com todas as letras  
+    maiúsculas.
+*/
+
+const external = () => {
+  const movie = 'Parasite'
+
+  const internal = () => {
+    const extraInternal = () => {
+      console.log(movie.toUpperCase())
+    }
+  }
+}
+
+external()
+
+/*
+  03
+
+  - Exiba no console o array abaixo com a ordem dos itens invertida;
+  - O resultado exibido deve ser [1, 2, 3];
+
+  Dica: procure pelo método reverse, no MDN.
+*/
+
+let randomNumbers = [3, 2, 1]
+
+/*
+  04
+
+  - Exiba no console o array abaixo com o 1º item removido;
+
+  Dica: procure pelo método shift, no MDN.
+*/
+
+let crazyArray = [
+  { prop1: '1', prop2: '2' },
+  function getMessage () { return 'hi' },
+  [ 5, 96, 53  ]
+]
+
+/*
+  05
+
+  - Encontre no array abaixo o cão com o nome "Zequinha" e exiba esse objeto  
+    no console;
+
+  Dica: procure pelo método find, no MDN.
+*/
+
+const dogs = [
+  { name: 'Olivia', age: 3, gender: 'Female', breed: 'Maltês' },
+  { name: 'Zé', age: 2, gender: 'Male', breed: 'Pug' },
+  { name: 'Jade', age: 4, gender: 'Female', breed: 'Shiba inu' },
+  { name: 'Zequinha', age: 7, gender: 'Male', breed: 'Poodle' },
+  { name: 'Xica', age: 6, gender: 'Female', breed: 'Chihuahua' }
+]
+
+/*
+  06
+
+  - Cole o markup HTML abaixo em seu index.html;
+  - Utilize o query selector para obter a referência do título principal da  
+    página, através da classe dele;
+  - Exiba a referência do título principal no console.
+
+  <section>
+    <article>
+      <h1 class="main-title">Curiosidades sobre o filme Jurassic Park</h1>
+
+      <ul>
+        <li>
+          <h2 class="secondary-title">Direto das páginas do livro</h2>
+          <p>No livro Parque dos Dinossauros, de Michael Crichton, o personagem John Hammond anuncia orgulhoso que o guia turístico do parque é o ator Richard Kiley, conhecido nos Estados Unidos. No filme, o diretor Steven Spielberg convidou o próprio Kiley para interpretar a si mesmo nesta cena.</p>
+        </li>
+
+        <li>
+          <h2 class="secondary-title">Passou adiante</h2>
+          <p>O ator William Hurt chegou a ser convidado para interpretar o Dr. Alan Grant, mas recusou o papel sem nem mesmo ler o roteiro original do filme.</p>
+        </li>
+
+        <li>
+          <h2 class="secondary-title">Sistemas operacionais do parque</h2>
+          <p>Nos diversos softwares que aparecem em Jurassic Park foram utilizadas várias linguagens. Pode-se notar que um dos programas utilizados no parque foi escrito em Pascal, em um dos monitores percebe-se a utilização do sistema UNIX e a interface gráfica utilizada é a 3D File System Navigator, da Sillicon Graphics.</p>
+        </li>
+      </ul>
+    </article>
+  </section>
+*/
+
+/*
+  07
+
+  - Obtenha um NodeList com as referências de todos os títulos secundários da  
+    página, através da classe deles;
+  - Exiba esse NodeList no console.
+*/
+  01
+
+  - Utilize o array abaixo para exibir no console uma string com a seguinte  
+    formatação:
+  
+  Segundo o site Omelete, os melhores filmes de 2019 são:
+    - NOME_DO_FILME, dirigido por DIRETOR_DO_FILME
+    - NOME_DO_FILME, dirigido por DIRETOR_DO_FILME
+    - NOME_DO_FILME, dirigido por DIRETOR_DO_FILME
+  
+  - Todos os filmes e diretores do array devem constar na lista.
+*/
+
+const best2019Movies = [
+  { title: 'Parasita', directedBy: 'Bong Joon-ho' },
+  { title: 'Bacurau', directedBy: 'Kleber Mendonça Filho' },
+  { title: 'O Irlandês', directedBy: 'Martin Scorsese' },
+  { title: 'Entre Facas e Segredos', directedBy: 'Rian Johnson' },
+  { title: 'Turma da Mônica: Laços', directedBy: 'Daniel Rezende' },
+  { title: 'Homem-Aranha: No Aranhaverso', directedBy: 'Peter Ramsey' },
+  { title: 'Klaus', directedBy: 'Sergio Pablos' },
+  { title: 'Fora de Série', directedBy: 'Olivia Wilde' },
+  { title: 'Shazam', directedBy: 'David F. Sandberg' },
+  { title: 'História de um Casamento', directedBy: 'Noah Baumbach' },
+  { title: 'Varda por Agnès', directedBy: 'Agnès Varda' },
+  { title: 'A Vida Invisível', directedBy: 'Karim Aïnouz' }
+]
+
+let melhor=''
+best2019Movies.forEach( x =>  melhor+=`
+ -${x.title} , dirigido por ${x.directedBy}`)
+
+//console.log(` Segundo o site Omelete, os melhores filmes de 2019 são: ${melhor}`)
+/*
+  02
+
+  - No objeto abaixo, implemente um método que exibe a seguinte mensagem no 
+    console:
+
+    Vídeos recentes de Roger Melo:
+    Introdução ao TDD - Parte 02 | JavaScript | Jest
+    Introdução ao TDD | JavaScript | Jest
+    Higher-order Functions | JavaScript
+  
+  - As 4 linhas da mensagem, podem ser exibidas separadamente.
+*/
+
+const youtubeUser = {
+  name: 'Roger Melo',
+  chanelUrl: 'https://www.youtube.com/channel/UCmjDevp9Y8r-qi-xueD3Izg',
+  videos: {
+    total: 111,
+    recentVideos: [
+      { title: 'Introdução ao TDD - Parte 02 | JavaScript | Jest', length: '28:28' },
+      { title: 'Introdução ao TDD | JavaScript | Jest', length: '19:29' },
+      { title: 'Higher-order Functions | JavaScript', length: '47:38' }
+    ]
+  },
+  about: {
+    description: '🔥 Ensino as pessoas a alcançarem a fluência em JavaScript! 🔥',
+    socialNetworks: {
+      twitter: 'https://twitter.com/rogermelodev',
+      gitHub: 'https://github.com/Roger-Melo'
+    },
+    country: 'Brasil'
+  },
+  expor(){
+     let video= 'Vídeos recentes de Roger Melo: '
+     this.videos.recentVideos.forEach( objeto => video+=` 
+${objeto.title}` )
+     console.log(video)
+  }
+}
+
+youtubeUser.expor()
+/*
+  03
+
+  - Exiba o valor do PI no console.
+*/
+
+
+
+/*
+  04
+
+  - Arredonde o número que a constante abaixo armazena para 9 e exiba-o no  
+    console.
+*/
+
+const firstNumber = 8.3
+
+/*
+  05
+
+  - Arredonde o número que a constante abaixo armazena para 4, utilizando a  
+    forma padrão, e exiba-o no console.
+*/
+
+const secondNumber = 3.5
+
+/*
+  06
+
+  - Arredonde o número que a constante abaixo armazena para 8 e exiba-o no  
+    console.
+*/
+
+const thirdNumber = 8.9
+
+/*
+  07
+
+  - Exiba no console o número abaixo com a parte decimal removida.
+*/
+
+const fourthNumber = 5.5
+
+/*
+  08
+
+  - A cada vez que o index.html for carregado, exiba no console um número  
+    aleatório de 0 à 10, incluindo 0 e 10.
+*/
+  01
+
+  - Faça com que o texto do h1 do index.html seja exibido com todas as letras  
+    maiúsculas.
+*/
+
+
+
+/*
+  02
+
+  - Adicione, na ul vazia do index.html, os números do array "numbers" abaixo;
+  - Cada número deve estar dentro de uma <li> com a classe "number".
+*/
+
+const numbers = [ 53, 24, 3, 8, 1, 6, 57, 80, 77, 98, 55 ]
+
+/*
+  03
+
+  - Modifique as cores dos números dentro da ul da seguinte forma:
+    - Se o número é par, ele deve ser exibido na cor "lightblue";
+    - Se o número é ímpar, exiba-o na cor "pink".
+*/
+
+
+
+/*
+  04
+
+  - Adicione a classe "body-background" no corpo do index.html;
+
+  P.s: a classe "body-background" já está declarada no style.css.
+*/
+
+
+
+/*
+  05
+
+  - Adicione o link 
+    https://github.com/roger-melo-treinamentos/curso-de-js-roger-melo no href  
+    do link do index.html.
+*/
+
+
+
+/*
+  06
+
+  - Exiba o novo valor do atributo href do link no console.
+*/
+
+
+
+/*
+  07
+
+  - Exiba, no console, um objeto com todas as propriedades CSS que podem ser  
+    manipuladas via JS no h1.
+*/
+
+
+
+/*
+  08
+
+  - Remova a classe "body-background", do elemento body.
+*/
+
+
+
+/*
+  09
+
+  - Se o link da página possuir uma classe "link", remova-a;
+  - Não utilize o método remove() para fazer isso.
+*/
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercícios da aula 02 da etapa 05</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Exercícios da aula 02 da etapa 05</h1>
+
+  <ul class="numbers"></ul>
+
+  <a class="link" href="#">Repo de exercícios e dúvidas dos alunos(as) do CJRM</a>
+
+  <script src="./app.js"></script>
+</body>
+</html>
+  color: white;
+  background-color: #3d0f92;
+}
+
+.number {
+  list-style: none;
+}
+
+.link {
+  color: lightblue;
+}
+  01
+
+  - Obtenha a ul do index.html e adicione em todos os elementos filhos dela,  
+    uma classe 'video';
+  - Exiba no console os elementos filhos da ul com a classe já inserida.
+*/
+
+
+
+/*
+  02
+
+  - Usando a propriedade adequada, descubra quem é o elemento pai do h2
+    e exiba-o no console;
+*/
+
+
+
+/*
+  03
+
+  - Descubra quem é o próximo elemento irmão do h1 e exiba-o no console;
+*/
+
+
+
+/*
+  04
+
+  - Descubra quem é o irmão anterior da ul e exiba-o no console;
+*/
+
+
+
+/*
+  05
+
+  - Quando um clique acontecer em alguma das lis, faça com que a li clicada seja  
+    exibida no console.
+*/
+
+
+
+/*
+  06
+
+  - Quando o botão for clicado, adicione o nome dos vídeos abaixo dentro da ul;
+  - Cada nome deve estar dentro de uma li.
+*/
+
+const videos = [{
+  name: 'Como o promise all funciona | JavaScript',
+  length: '00:01:52'
+}, {
+  name: 'Como refatorar um for loop | JavaScript',
+  length: '00:04:18'
+}, {
+  name: 'Como fazer requisições HTTP com o método fetch | JavaScript',
+  length: '00:02:55'
+}]
+
+/*
+  07
+
+  - Se um clique no h1 acontecer, faça com que todos os elementos dentro do body 
+    sejam removidos.
+*/
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Correção dos exercícios da aula 03 da etapa 05</title>
+</head>
+<body>
+  <h1>Correção dos exercícios da aula 03 da etapa 05</h1>
+
+  <h2>Vídeos</h2>
+
+  <ul class="videos">
+    <li>Como desenvolver uma pokedex com JavaScript puro</li>
+    <li>Como desenvolver uma aplicação que busca e exibe letras de músicas, com JavaScript puro</li>
+    <li>Como gerar um template html com JavaScript</li>
+    <li>Como refatorar uma função que tem mais de uma responsabilidade | JavaScript</li>
+    <li>Como eliminar a sintaxe objeto.propriedade em seu código | JavaScript</li>
+  </ul>
+
+  <button>Adicionar vídeos</button>
+
+  <script src="./app.js"></script>
+</body>
+</html>
+  01
+
+  - Faça com que ao clicar em um dos elementos dentro da div, a mensagem  
+    'Clicou na div.' não seja exibida no console.
+*/
+
+const div = document.querySelector('div')
+const elementsInsideDiv = Array.from(div.children)
+
+elementsInsideDiv.forEach(element => {
+  element.addEventListener('click', () => {
+    console.log('Clicou no filho da div.')
+  })
+})
+
+div.addEventListener('click', () => {
+  console.log('Clicou na div.')
+})
+
+/*
+  02
+
+  - No código acima, faça com que quando um filho da div for clicado, a mensagem  
+    exibida no console seja "Clicou no NOME_DA_TAG_COM_LETRAS_MINÚSCULAS, filho
+    da div.".
+*/
+
+/*
+  03
+
+  - No index.html, abaixo da div sem classe, insira um h2;
+  - Faça com que a mensagem de clique na div e a mensagem de clique em algum
+    filho da div, ao invés de ser exibida no console, seja inserida neste h2.
+*/
+
+/*
+  04
+
+  - Faça com que quando o texto do h2 for copiado, a mensagem "Texto copiado!"  
+    seja exibida no console.
+*/
+
+/*
+  05
+
+  - Faça com que o movimento do mouse dentro da div com a classe "egg" substitua
+    o texto que ela tem por 
+    "Eixo X: COORDENADA_EIXO_X | Eixo Y: COORDENADA_EIXO_Y".
+*/
+
+/*
+  06
+
+  - Modifique a cor do ovo para "lightgoldenrodyellow" quando o botão for 
+    clicado.
+*/
+
+/*
+  07
+
+  - Se o array de pessoas abaixo conter, no mínimo, um(a) Front-end developer,
+    exiba a mensagem abaixo no console.
+
+    "O array people contém, no mínimo, um(a) Front-end developer."
+*/
+
+const people = [
+  { id: 1, name: 'Pedro Henrique', profession: 'Dentista' },
+  { id: 2, name: 'Fábio Alexandre', profession: 'Físico' },
+  { id: 3, name: 'Thiago Ferreira', profession: 'Veterinário' },
+  { id: 4, name: 'Marcelo Antonio', profession: 'Matemático' },
+  { id: 5, name: 'Camilla Midori', profession: 'Engenheira Civil' },
+  { id: 6, name: 'Gustavo D\'Aqui', profession: 'Gerente de Marketing' },
+  { id: 7, name: 'Ana Paula', profession: 'Front-end developer' },
+  { id: 8, name: 'Matheus Manucci', profession: 'Piloto' },
+  { id: 9, name: 'Hamilton Silva', profession: 'Advogado' }
+]
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <title>Exercícios da aula 04 da etapa 05</title>
+</head>
+<body>
+  <div>
+    <h1>3 objetos que toda casa brasileira já teve</h1>
+    
+    <p>TV portátil</p>
+    <p>Antena UHF</p>
+    <p>Galinha da Maggi</p>
+  </div>
+
+  <div class="egg">Mova o mouse aqui dentro</div>
+  <button>Mudar cor do ovo</button>
+
+  <script src="./app.js"></script>
+</body>
+</html>
+  width: 300px;
+  height: 300px;
+  background: lightblue;
+  border-radius: 50%;
+  margin: 30px auto;
+  text-align: center;
+  padding-top: 50px;
+}
+  01
+
+  - No envio do form, faça com que a página não seja recarregada.
+*/
+
+/*
+  02
+
+  - No envio do form obtenha, através do objeto event, o texto inserido no  
+    input e exiba-o no console.
+*/
+
+/*
+  03
+
+  - Teste uma regex que dá match com a palavra "documentation" do parágrafo do  
+    index.html;
+  - Exiba no console o boolean no qual este teste resulta.
+*/
+
+/*
+  04
+
+  - Escreva uma regex que dê match com a palavra "B99" da string abaixo;
+  - A regex não deve conter (literalmente) os caracteres B99;
+  - Teste se o match aconteceu e exiba o resultado no console.
+*/
+
+const B99message = 'E o Terry Crews faz tudo, inclusive tocar a abertura de B99 na flauta'
+
+/*
+  05
+
+  - Modifique (manualmente) o valor que a const word armazena para que o  
+    resultado do teste entre a regex e a string exibido no console seja true.
+*/
+
+const word = 'O que a NASA fotografou no dia do seu aniversário?'
+const NASARegex = /^[A-Z]{4}$/
+const NASAResult = NASARegex.test(word)
+
+console.log(NASAResult)
+
+/*
+  06
+
+  - No envio do form, se o valor inserido no input conter, no mínimo, 7  
+    caracteres, que podem ser quaisquer caracteres, exiba no console a mensagem
+    "O valor inserido no input é válido =)";
+  - Caso contrário, exiba "Valor inválido =(" no console.
+  
+  Exemplos:
+    - "a[b@X7c" é um valor válido, pois contém 7 caracteres;
+    - "jozeti" não é um valor válido, pois contém 6 caracteres.
+*/
+
+/*
+  07
+
+  - Agora, no envio do form, faça com que o valor permitido contenha de 7 a 11 
+    caracteres mas não contenha caracteres especiais. Apenas letras maiúsculas  
+    ou minúsculas e números serão permitidos.
+
+  Exemplos:
+    - "0xY79aYx54e" é um valor válido, pois contém 11 letras e números;
+    - "eich_1961" não é um valor válido, pois contém um caractere especial.
+*/
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Exercício 17</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Exercício 17</h1>
+
+    <form>
+      <input type="text" id="input" placeholder="Insira um valor" autofocus>
+      <button>Enviar</button>
+    </form>
+
+    <p>
+      Browse the complete JavaScript reference 
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
+      >
+        documentation
+      </a>.
+    </p>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
+  width: 40%;
+}
+
+h1 {
+  margin-top: 20px;
+}
+  Apenas 3 exercícios, mas que exigem um certo nível de conhecimento do que  
+  vimos até aqui =)
+*/
+
+/*
+  01
+
+  - Valide o valor do input "username" à medida em que ele é digitado;
+  - Ele deve conter: 
+    - No mínimo 6 caracteres;
+    - Apenas letras maiúsculas e/ou minúsculas;
+  - Se o valor inserido não é válido, exiba um parágrafo laranja abaixo do  
+    input com a seguinte mensagem: "O valor deve conter no mínimo 6 caracteres,  
+    com apenas letras maiúsculas e/ou minúsculas";
+  - Se o valor é válido, o parágrafo deve ser verde e exibir a mensagem  
+    "Username válido =)";
+  - Use as classes disponíveis no arquivo style.css para colorir o parágrafo;
+  - Não insira o parágrafo manualmente no index.html.
+  
+  Dica: pesquise pelo método "insertAdjacentElement", no MDN;
+*/
+
+/*
+  02
+
+  - Valide o envio do form;
+  - Se o username inserido no input é válido, no envio do form, exiba um  
+    parágrafo verde abaixo do botão com a mensagem "Dados enviados =)";
+  - Se no momento do envio, o valor do input é inválido, o parágrafo deve ser  
+    vermelho e exibir "Por favor, insira um username válido".
+  - Use as classes disponíveis no arquivo style.css para colorir o parágrafo;
+  - Não insira o parágrafo manualmente no index.html.
+*/
+
+/*
+  03
+
+  - Há algumas aulas, falamos sobre o método some;
+  - Neste exercício, seu desafio será criar este método do zero;
+  - Implemente uma função "some" que possui a mesma funcionalidade do método  
+    some original;
+  - A assinatura da invocação desta função deverá ser:
+    - some([1, 2, 3], item => item > 2) - Retorna true;
+    - some([1, 3, 5], item => item === 0) - Retorna false;
+  - Se você não se lembra como o método some funciona, há 2 opções:
+    1) Reassistir às seguintes aulas:
+      - "Desenvolvendo um popup" - Aula 04-04 da etapa 5;
+      - "Correção dos exercícios da aula 04 da etapa 05" - Aula 01-01 da etapa  
+        6;
+    2) Pesquisar no MDN.
+  
+  Spoiler alert: este tipo de exercício será frequente em etapas mais avançadas  
+  do curso, onde falaremos sobre TDD. Vá se aquecendo =D
+*/
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Exercício 18</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Exercício 18</h1>
+
+    <form>
+      <fieldset>
+        <label for="username">Nome de usuário</label>
+        <input
+          type="text"
+          placeholder="Cadastre seu nome de usuário"
+          id="username"
+          autofocus
+        >
+
+        <button class="button">Enviar</button>
+      </fieldset>
+    </form>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
+  max-width: 80rem;
+  padding-top: 7.5rem;
+}
+
+.username-help-feedback {
+  margin-bottom: 2.5rem;
+  color: darkorange;
+}
+
+.username-success-feedback {
+  margin-bottom: 2.5rem;
+  color: green;
+}
+
+.submit-help-feedback {
+  margin-bottom: 2.5rem;
+  color: red;
+}
+
+.submit-success-feedback {
+  margin-bottom: 2.5rem;
+  color: green;
+}
+  01
+
+  - Gere um novo array com apenas os números ímpares do array abaixo e exiba 
+    o novo array no console.
+*/
+
+const randomNumbers = [10, 30, 15, 25, 50, 40, 5]
+
+/*
+  02
+
+  - Exiba no console quantos números abaixo de 501 o array abaixo possui.
+*/
+
+const crazyNumbers = [937, 5, 395, 402, 501, 333, 502, 781, 3, 691]
+
+/*
+  03
+
+  - Gere um novo array com cada um dos números abaixo elevados ao quadrado e 
+    exiba o novo array no console.
+*/
+
+const numbers = [5, 7, 3]
+
+/*
+  04
+
+  - Exiba no console uma lista dos nomes dos jogos do array abaixo;
+  - A lista deve ter a formatação exemplificada abaixo do array, considerando 
+    inclusive o traço e o espaço antes de cada nome.
+  
+  Dica: para quebrar linha, você pode usar dentro da string o caractere 
+  especial \n.
+*/
+
+const cart = [
+  { name: 'Dark Souls III', price: 95.03 },
+  { name: 'Shadow of the Tomb Raider', price: 101.19 },
+  { name: 'Sekiro: Shadows Die Twice', price: 179.99 },
+  { name: 'Resident Evil 2', price: 119.90 },
+  { name: 'Death Stranding', price: 149.99 }
+]
+
+/*
+  - Nome 1
+  - Nome 2
+  - Nome 3
+*/
+
+/*
+  05
+
+  - Utilizando o array abaixo, gere um novo array com apenas os filmes lançados 
+    antes do ano 2000;
+  - Exiba o novo array no console.
+*/
+
+const tarantinoMovies = [
+  { name: 'Bastardos inglórios', release: 2009 },
+  { name: 'Pulp Fiction', release: 1994 },
+  { name: 'Kill Bill: Volume 2', release: 2004 },
+  { name: 'Quatro Quartos', release: 1995 },
+  { name: 'Sin City', release: 2005 },
+  { name: 'Era uma Vez em... Hollywood', release: 2019 },
+  { name: 'Django Livre', release: 2012 },
+  { name: 'Cães de Aluguel', release: 1992 },
+  { name: 'À Prova de Morte', release: 2007 },
+  { name: 'Kill Bill: Volume 1', release: 2003 }
+]
+
+/*
+  06
+
+  - Gere um novo array que contém apenas os nomes das séries abaixo;
+  - Exiba o novo array no console.    
+*/
+
+const tvShows = [
+  { name: 'Breaking Bad', releaseYear: 2008 },
+  { name: 'Mr. Robot', releaseYear: 2015 },
+  { name: 'True Detective', releaseYear: 2014 },
+  { name: 'Hannibal', releaseYear: 2013 },
+  { name: 'The Handmaid\'s Tale', releaseYear: 2017 },
+  { name: 'House M.D.', releaseYear: 2004 },
+  { name: 'Watchmen', releaseYear: 2019 }
+]
+
+/*
+  07
+
+  - Observe os loops da sua versão do quiz e considere se, baseado no que foi  
+    visto nessa aula, você deve refatorá-los.
+*/
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 21</title>
+</head>
+<body>
+  <h1>Exercício 21</h1>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
+  01
+
+  - Insira apenas o css do bootstrap no index.html.
+*/
+
+/* 
+  02
+
+  - Após um segundo e meio do carregamento da página, exiba no console a  
+    mensagem "Um segundo e meio se passaram desde que a página foi carregada".
+*/
+
+
+
+/* 
+  03
+
+  - Faça o contador do index.html funcionar;
+  - O clique no botão "Parar contador" deve fazer com que o contador exiba 0.
+*/
+
+
+
+/* 
+  04
+
+  - A partir deste exercício, vamos voltar a trabalhar na sua versão do Quiz =D
+  - Adicione mais 2 alternativas em cada pergunta do quiz.
+*/
+
+/* 
+  05
+
+  - Modifique a ordem das alternativas corretas. Ou seja, faça com que a  
+    alternativa correta das perguntas não seja apenas a alternativa "B".
+*/
+
+/* 
+  06
+
+  - Refatore o código.
+  
+  Dicas: 
+    - Primeiro, quebre o código da função de callback de envio do form em  
+      funções isoladas;
+    - Depois, cuide da legibilidade das funções.
+*/
+
+/* 
+  07
+
+  O exercício agora é considerarmos fazer dessa aplicação uma peça do seu 
+  portfólio.
+
+  Se você conseguiu executar o exercício da aula passada, especialmente sem ter  
+  que rever partes da aula, ou seja, se você sente que desenvolveu a sua versão  
+  do quiz por conta própria, considere inserí-la como parte de seu portfólio.
+
+  Caso contrário, reveja as aulas e treine novamente até que você consiga 
+  desenvolver a aplicação sozinho(a).
+
+  A ideia é: considere inserir a sua versão do quiz em seu portifólio apenas se 
+  você sente que *aprendeu* a desenvolvê-la.
+
+  Se você ainda não tem um site próprio para hospedar os arquivos da aplicação, 
+  você pode hospedá-la no Netlify seguindo este tutorial: 
+  https://www.youtube.com/playlist?list=PLlAbYrWSYTiMGMxQf9JSoZUU1rgVpGPth
+*/
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 20</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="counter-container display-1 text-center">0</h1>
+
+    <div class="row justify-content-center">
+      <button class="button-init-counter btn btn-info col-">
+        Iniciar contador
+      </button>
+
+      <button class="button-stop-counter btn btn-warning col-">
+        Parar contador
+      </button>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
+  01
+
+  - Ordene o array de strings abaixo em ordem alfabética;
+  - Não modifique o array original;
+  - Exiba o array ordenado no console.
+*/
+
+const names = ['Caio', 'André', 'Dário']
+
+/*
+  02
+
+  - Ordene, de forma crescente, os objetos do array abaixo baseado em seus id's;
+  - Não modifique o array original;
+  - Exiba o array ordenado no console.
+*/
+
+const characters = [
+  { id: 03, name: 'Simba' },
+  { id: 02, name: 'Nala' },
+  { id: 01, name: 'Scar' },
+  { id: 04, name: 'Mufasa' }
+]
+
+/*
+  03
+
+  - Ordene o array de números abaixo de forma crescente;
+  - Não modifique o array original;
+  - Exiba o array ordenado no console.
+*/
+
+const numbers = [41, 15, 63, 349, 25, 22, 143, 64, 59, 291]
+
+/*
+  04
+
+  - Encontre e exiba no console o 1º item maior que 50 do array abaixo.
+*/
+
+const randomNumbers = [10, 5, 0, 40, 60, 10, 20, 70]
+
+/*
+  05
+
+  - Ordene o array de strings abaixo em ordem alfabética-invertida (Z-A);
+  - Não modifique o array original;
+  - Exiba o array ordenado no console.
+*/
+
+const people = ['Cauã', 'Alfredo', 'Bruno']
+
+/*
+  06
+  
+  - Através do array abaixo, gere a mensagem "vinho cozido, tomate cozido, 
+    cebola cozida, cogumelo cozido";
+  - Exiba a string no console.
+*/
+
+const ingredients = ['vinho', 'tomate', 'cebola', 'cogumelo']
+
+/*
+  07
+  
+  - À partir do array abaixo, obtenha e exiba no console o total de pessoas que 
+    assistiram apenas os filmes da Disney.
+*/
+
+const topBrazilmovies = [
+  { title: 'Vingadores: Ultimato', peopleAmount: 19686119, distributedBy: 'Disney' },
+  { title: 'Titanic', peopleAmount: 17050000, distributedBy: 'Paramount / 20th Century' },
+  { title: 'O Rei Leão', peopleAmount: 16267649, distributedBy: 'Disney' },
+  { title: 'Vingadores: Guerra Infinita', peopleAmount: 14572181, distributedBy: 'Disney' },
+  { title: 'Tubarão', peopleAmount: 13035000, distributedBy: 'Universal' },
+  { title: 'Nada a Perder', peopleAmount: 11944985, distributedBy: 'Paris Filmes' },
+  { title: 'Os Dez Mandamentos', peopleAmount: 11259536, distributedBy: 'Paris / Downtown Filmes' },
+  { title: 'Tropa de Elite 2', peopleAmount: 11204815, distributedBy: 'Zazen' },
+  { title: 'Os Vingadores', peopleAmount: 10968065, distributedBy: 'Disney' },
+  { title: 'Dona Flor e Seus Dois Maridos', peopleAmount: 10735524, distributedBy: 'Embrafilme' }
+]
+
+/*
+  08
+  
+  - Considerando o array abaixo, gere um array de cães;
+  - Os cães, ao invés da idade original, devem conter sua "idade humana";
+    - Algumas pessoas dizem que 1 ano de um cachorro equivale à 7 anos de uma 
+      pessoa. Cientificamente, não é tão simples assim, mas para fins didáticos,  
+      se baseie nessa informação para fazer o cálculo.
+  - Exiba no console o array dos cães com as idades convertidas.
+*/
+
+const pets = [
+  { name: 'Boris', age: 4, gender: 'Male', type: 'Dog' },
+  { name: 'Jimmy', age: 1, gender: 'Male', type: 'Cat' },
+  { name: 'Pérola', age: 2, gender: 'Female', type: 'Dog' },
+  { name: 'Lucy', age: 5, gender: 'Female', type: 'Cat' },
+  { name: 'Cristal', age: 3, gender: 'Female', type: 'Dog' },
+  { name: 'Chico', age: 6, gender: 'Male', type: 'Dog' }
+]
+
+/*
+  09
+  
+  - Considerando o array topBrazilmovies, através do map ou do reduce, insira 
+    os nomes dos filmes na ul do index.html.
+*/
+
+/*
+  10
+  
+  - Na sua versão do Quiz, teste se ao enviar o form pela 2ª vez consecutiva, a 
+    pontuação do envio anterior é contabilizada;
+  - Exemplo: exibe 100% no 1º envio e 200% no 2º envio (sem modificar as 
+    alternativas entre os envios);
+    - Se isso está acontecendo, proponha uma solução para que o 2º submit não 
+      considere a pontuação do envio anterior.
+*/
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 22</title>
+</head>
+<body>
+  <h1>Exercício 22</h1>
+
+  <h2>Filmes</h2>
+  <ul class="list-group"></ul>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
+  01
+
+  - Exiba no console apenas as letras que a "myString" contém;
+  - Não modifique a string manualmente.
+*/
+
+const myString = '    JS      '
+
+/*
+  02
+
+  - Baseado no score dos objetos, ordene o array "people" de forma crescente 
+    (menores no topo, maiores em baixo);
+  - Não modifique o array original;
+  - Exiba o array ordenado no console.
+*/
+
+const people = [
+  { firstName: 'Estevão', lastName: 'Rodriguez', score: 90 },
+  { firstName: 'José', lastName: 'Antônio', score: 100 },
+  { firstName: 'Felipe', lastName: 'Tavares', score: 71 },
+  { firstName: 'Eric', lastName: 'Silva', score: 82 }
+]
+
+/*
+  03
+
+  - Gere um novo array com apenas os animais que contém 3 letras no nome;
+
+  Ps: Neste e nos demais exercícios, utilize o debugger para visualizar o valor 
+      final que os exercícios pedem. Após resolver um exercício, remova o 
+      debugger antes de partir para o próximo.
+*/
+
+const animals = ['cão', 'gato', 'boi', 'leão', 'gnu', 'alce', 'ema']
+
+/*
+  04
+
+  - Baseado no array "animals", gere um novo array com a quantidade de letras do 
+    nome de cada animal. Ex.: [6, 8, 2].
+*/
+
+
+
+/*
+  05
+
+  - Através do encadeamento de 2 métodos, gere um novo array com apenas os nomes  
+    dos amigos que moram perto (que contém a propriedade "nearMe" armazenando 
+    true).
+*/
+
+const friends = [
+  { id: 1, name: 'João', nearMe: true },
+  { id: 2, name: 'Matheus', nearMe: true },
+  { id: 3, name: 'Luana', nearMe: false },
+  { id: 4, name: 'Nilson', nearMe: true },
+  { id: 5, name: 'Solange', nearMe: false }
+]
+
+
+
+/*
+  06
+
+  - Através do encadeamento de 2 métodos, obtenha a soma só dos números ímpares 
+    do array abaixo.
+*/
+
+const numbers = [46, 86, 212, 29, 51, 9, 25, 42, 81]
+
+/*
+  07
+
+  - Através do encadeamento de 2 métodos, obtenha a soma da população de todos  
+    países, exceto a China.
+*/
+
+const data = [{
+  country: 'China',
+  population: 1409517397
+}, {
+  country: 'India',
+  population: 1339180127
+}, {
+  country: 'USA',
+  population: 324459463
+}, {
+  country: 'Indonesia',
+  population: 263991379
+}]
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 23</title>
+</head>
+<body>
+  <h1>Exercício 23</h1>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
+  01
+
+  - Exiba no console o index da 1ª (e única) ocorrência do mês "Fevereiro" do 
+    array "months".
+*/
+
+const months = [
+  'Janeiro',
+  'Fevereiro',
+  'Março',
+  'Abril',
+  'Maio',
+  'Junho',
+  'Julho',
+  'Agosto',
+  'Setembro',
+  'Outubro',
+  'Novembro',
+  'Dezembro'
+]
+
+/*
+  02
+
+  - Crie um objeto de data que represente o momento presente;
+  - Exiba o objeto no console.
+*/
+
+/*
+  03
+
+  - Baseado no objeto que você acabou de criar, exiba o ano atual no console.
+*/
+
+/*
+  04
+
+  - Crie um objeto de data que represente um momento passado;
+  - Exiba o objeto no console.
+*/
+
+/*
+  05
+
+  - Exiba, no console, a hora do objeto que você acabou de criar.
+*/
+
+/*
+  06
+
+  - Crie um objeto de data que represente um momento futuro;
+  - Exiba o objeto no console.
+*/
+
+/*
+  07
+
+  - Exiba no console a quantidade de dias entre o momento futuro e o passado.
+*/
+
+/*
+  08
+  
+  Assim como a 1ª aplicação que implementamos no curso (Quiz), considere fazer 
+  da aplicação To-do List uma peça do seu portfólio.
+
+  Desenvolva a sua versão do To-do List e, se você sentir que a desenvolveu 
+  por conta própria, considere inserí-la como parte de seu portfólio.
+
+  Caso contrário, reveja as aulas e treine novamente até que você consiga 
+  desenvolver a aplicação sozinho(a).
+
+  Você pode hospedá-la no Netlify seguindo o mesmo tutorial que recomendei na 
+  aplicação do Quiz: 
+  https://www.youtube.com/playlist?list=PLlAbYrWSYTiMGMxQf9JSoZUU1rgVpGPth
+*/
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 25</title>
+</head>
+<body>
+  <h1>Exercício 25</h1>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
+  01
+
+  - Exiba no console um boolean indicando se o caractere ':' existe na string 
+    abaixo.
+*/
+
+const message = 'Próxima etapa: 10'
+
+/*
+  02
+
+  - Exiba no console um boolean indicando se o item '635' existe no array 
+    abaixo.
+*/
+
+const numbers = [979, 2673, 41, 77, 276, 554, 399, 385, 65, 726, 635, 833, 462]
+
+/*
+  A partir daqui, vamos treinar nossas skills de refatoração.
+
+  Antes de iniciar o refactoring abaixo, por precaução, versione (ou faça uma 
+  cópia do) seu todo-list atual para que seja possível mais tarde voltar ao 
+  estado em que ele está agora, se necessário.
+*/
+
+/*
+  03
+
+  - Refatore a implementação da remoção do to-do (li) da tela;
+  - Tente implementar essa remoção sem "navegar pelo DOM". Ou seja, sem usar 
+    propriedades como a parentElement.
+    
+    Por que? 
+
+    Se futuramente a marcação HTML da aplicação mudar, se o parentElement mudar, 
+    o código que foi implementado não funcionará.
+    
+    Dica: pesquise por dataset e atributos data.
+*/
+
+/*
+  04
+
+  Algumas sugestões de refactoring
+  
+  - Isole em funções de responsabilidade única:
+    - O código que adiciona os to-dos;
+    - O código que filtra e adiciona as classes CSS nos to-dos.
+*/
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 24</title>
+</head>
+<body>
+  <h1>Exercício 24</h1>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
+  01
+
+  - Implemente um código assíncrono entre os console.log() abaixo.
+*/
+
+console.log('Linha 1')
+console.log('Linha 2')
+console.log('Linha 3')
+console.log('Linha 4')
+
+
+
+console.log('Linha 5')
+console.log('Linha 6')
+console.log('Linha 7')
+console.log('Linha 8')
+
+/*
+  02
+
+  - Descomente o código abaixo e crie a função que fará a string dentro da 
+    "logGreeting" ser exibida no console.
+*/
+
+function logGreeting (name) {
+  console.log(`olá, ${name}`)
+}
+
+// x(logGreeting)
+
+/*
+  03
+
+  - O código abaixo possui uma parte que pode ser isolada. Isole-a.
+*/
+
+const numbers = [3, 4, 10, 20]
+const lesserThanFive = numbers.filter(num => num < 5)
+
+console.log(lesserThanFive)
+
+/*
+  04
+
+  - Refatore o código abaixo.
+*/
+
+const prices = [12, 19, 7, 209]
+let totalPrice = 0
+
+for (let i = 0; i < prices.length; i++) {
+  totalPrice += prices[i]
+}
+
+console.log(`Preço total: ${totalPrice}`)
+
+/*
+  05
+
+  - Abaixo da declaração do objeto "car", modifique a cor do carro para 'azul';
+  - Não insira `car.color = azul`.
+*/
+
+let car = { color: 'amarelo' }
+
+/*
+  06
+
+  - Crie uma função que recebe 3 argumentos;
+  - Se um dos 3 argumentos não for passado na invocação, a string 'A função 
+    deve ser invocada com 3 argumentos' deve ser retornada;
+  - Se todos os argumentos forem passados, retorne a string 'A função foi 
+    invocada com 3 argumentos'.
+*/
+
+/*
+  07
+
+  - O objeto abaixo representa uma caixa de livros com espaço para 5 livros e 
+    que, no momento em que foi declarado, possui nenhum livro dentro;
+  - Crie um método que irá adicionar livros na caixa;
+  
+  Este método deve:
+    - Receber por parâmetro o número de livros que serão colocados na caixa. 
+      Esse número não precisa encher a caixa de uma só vez, os livros podem 
+      ser acrescentados aos poucos;
+    - Retornar a frase: "Já há 'X' livros na caixa";
+    - Se a caixa já estiver cheia, com todos os espaços já preenchidos, o 
+      método deve retornar a frase: "A caixa já está cheia";
+    - Se ainda houverem espaços na caixa mas a quantidade de livros passada por
+      parâmetro for ultrapassar o limite de espaços da caixa, mostre quantos 
+      espaços ainda podem ser ocupados, com a frase: "Só cabem mais 
+      QUANTIDADE_DE_LIVROS_QUE_CABEM livros";
+    - Se couber somente mais um livro, mostre a palavra "livro" (no singular) 
+      na frase acima.
+*/
+
+let booksBox = {
+  spaces: 5,
+  booksIn: 0
+}
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 27</title>
+</head>
+<body>
+  <h1>Exercício 27</h1>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
+  01
+
+  - Crie uma função que recebe uma data por parâmetro e retorna a data na 
+    formatação "DD/MM/AAAA". Exemplo: 03/07/2021;
+  - Não utilize a date-fns.
+*/
+
+/*
+  02
+
+  - Crie uma função que recebe uma data por parâmetro e retorna o horário e a 
+    data na formatação: "03:07 - domingo, 7 de junho de 2020";
+  - Não utilize a date-fns.
+*/
+
+/*
+  03
+
+  - Faça um destructuring nas propriedades "id" e "isVerified" do objeto abaixo;
+  - Exiba os valores lado a lado, no console;
+  - Não modifique a declaração da const user.
+*/
+
+const user = { id: 42, isVerified: true }
+
+/*
+  04
+
+  - Faça um destructuring nas propriedades "name" dos objetos abaixo;
+  - No destructuring, faça "Bender" ser armazenado por uma const "nameA" e 
+    "HAL 9000" ser armazenado por uma const "nameB";
+  - Exiba os valores das consts lado a lado, no console;
+  - Não modifique a declaração das consts "robotA" e "robotB".
+*/
+
+const robotA = { name: 'Bender' }
+const robotB = { name: 'HAL 9000' }
+
+/*
+  05
+
+  - Usando shorthand property names, crie um objeto com as propriedades "a", 
+    "b" e "c";
+  - O valor dessas propriedades deve ser o mesmo das consts "a", "b" e "c";
+  - Exiba o objeto no console.
+*/
+
+const a = 'a'
+const b = 'b'
+const c = 'c'
+
+/*
+  06
+
+  - Refatore o código abaixo.
+*/
+
+const useDataSomewhereElse = value => {
+  console.log(value)
+}
+
+const updateSomething = (data = {}) => {
+  const target = data.target
+  const property = data.property
+  let willChange = data.willChange
+
+  if (willChange === 'valor indesejado') {
+    willChange = 'valor desejado'
+  }
+
+  useDataSomewhereElse({
+    target: target,
+    property: property,
+    willChange: willChange
+  })
+}
+
+updateSomething({ target: '1', property: '2', willChange: 'valor indesejado' })
+
+/*
+  07
+
+  - O código abaixo é o mesmo do relógio digital que implementamos na aula 
+    passada. Refatore-o.
+*/
+
+const clockContainer = document.querySelector('.clock-container')
+
+const updateClock = () => {
+  const present = new Date()
+  const hours = present.getHours()
+  const minutes = present.getMinutes()
+  const seconds = present.getSeconds()
+
+  const clockHTML = `
+    <span>${String(hours).length === 1 ? `0${hours}` : hours}</span> :
+    <span>${String(minutes).length === 1 ? `0${minutes}` : minutes}</span> :
+    <span>${String(seconds).length === 1 ? `0${seconds}` : seconds}</span>
+  `
+
+  clockContainer.innerHTML = clockHTML
+}
+
+setInterval(updateClock, 1000)
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Exercício 26</title>
+</head>
+<body>
+  <div class="clock-container"></div>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
+  background-color: #212121;
+}
+
+.clock-container {
+  font-size: 4em;
+  text-align: center;
+  margin: 200px auto 0;
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clock-container span {
+  padding: 20px;
+  background: #006CE6;
+  border-radius: 10px;
+}
+  01
+
+  - Crie um objeto de request;
+  - Abra este website https://pokeapi.co/;
+  - Baseado no exemplo de endpoint exibido no website, abra uma requisição do 
+    tipo GET para obter dados do pokémon 'pikachu';
+  - Envie a requisição e trackeie ela usando o listener de evento adequado;
+  - Verifique se o estado da requisição representa que a operação foi completada
+    e se o status http do request indica que a requisição foi bem sucedida;
+  - Se as condições do item acima forem atendidas, exiba no console o texto da 
+    resposta que a requisição obteve;
+  - Se apenas a 1ª condição for atendida (o estado da requisição representa que 
+    a operação foi completada), exiba no console a mensagem 'Não foi possível 
+    obter os dados do pokémon';
+  - Teste também a verificação do item acima.
+
+  
+*/
+ const request = new XMLHttpRequest()
+
+ request.addEventListener('readystatechange',()=>{
+
+  if(request.readyState===4 && request.status===200){
+    console.log('deu tudo certo e a resposta é:',request.responseText)
+    return
+  }
+    if(request.readyState===4){
+      console.log('deu merda')
+      return
+    }
+ })
+ request.open('GET','https://pokeapi.co/api/v2/pokemon/pikachu')
+ request.send()
+
+/*
+  02
+
+  - Crie um objeto que contém suas informações pessoais;
+  - As propriedades devem armazenar: 
+    - Seu nome;
+    - Seu sobrenome;
+    - Seu sexo;
+    - Sua idade (number);
+    - Sua altura (number);
+    - Seu peso (number);
+    - Se você está andando (boolean iniciado em false);
+    - Quantos metros você caminhou (number iniciado em 0).
+*/
+
+/*
+  03
+
+  - Logo abaixo, adicione ao objeto um método que adiciona 1 ao valor da 
+    propriedade que armazena a idade;
+  - A cada vez que o método é invocado, 1 deve ser somado à idade atual;
+  - Após criar o método, adicione 5 anos à idade do objeto.
+*/
+
+/*
+  04
+
+  - Logo abaixo, adicione ao objeto um método que soma a quantidade de metros 
+    caminhados ao valor que foi recebido como parâmetro do método;
+  - Este método também deve modificar o boolean do objeto que indica se a 
+    pessoa representada pelo objeto está, ou não, andando;
+  - Após criar o método, faça a pessoa caminhar alguns metros, invocando o 
+    método 4x, com diferentes metragens passadas por parâmetro.
+*/
+
+/*
+  05
+
+  - Logo abaixo, adicione ao objeto um método que retorna a seguinte string:
+  
+  'Oi. Eu sou o NOME_COMPLETO, tenho IDADE anos, ALTURA metros de altura, 
+  peso PESO quilos e, só hoje, eu já caminhei QUANTIDADE_DE_METROS_CAMINHADOS 
+  metros.'
+  
+  - Antes de retornar a string, faça as seguintes validações:
+    - Se o sexo do objeto for "Feminino", antes do nome da pessoa, substitua "o"
+      por "a";
+    - Se a idade for 1, substitua "anos" por "ano", no singular;
+    - Se a quantidade de metros caminhados for 1, substitua "metros" por 
+      "metro", no singular.
+*/
+
+/*
+  06
+
+  - Crie uma função que recebe um valor como argumento e retorna um boolean 
+    indicando se o valor é truthy ou falsy;
+  - Invoque a função e, a cada invocação, passe como argumento um valor falsy.
+    - Faça isso até passar todos os valores falsy;
+  - Invoque a função e, desta vez, a cada invocação, passe como argumento um 
+    valor truthy;
+    - Faça isso até que 7 valores truthy sejam passados.
+*/
+
+/*
+  07
+
+  - Crie uma função que recebe um parâmetro, que será o nome de um livro;
+  - Essa função deve conter um objeto com 3 propriedades, que são nomes de 
+    livros;
+  - Cada uma dessas 3 propriedades deve armazenar um novo objeto que terá 
+    outras 3 propriedades que armazenam:
+      - A quantidade de páginas (number);
+      - Autor;
+      - Editora.
+  - Faça a função retornar o objeto que representa o livro passado por 
+    parâmetro;
+  - Se o parâmetro não for passado, faça a função retornar o objeto com todos 
+    os livros.
+
+  Dica: propriedades de objetos podem ser declaradas como strings.
+*/
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 28</title>
+</head>
+<body>
+  <h1>Exercício 28</h1>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
+  01
+
+  - Faça requests para a https://pokeapi.co/, da seguinte forma:
+    - Encapsule o código do request em uma função que recebe os parâmetros 
+      "url" e "callback";
+    - Se o request estiver ok, exiba no console 'Pokémon obtido: 
+      NOME_DO_POKEMON';
+    - Se o request não estiver ok, exiba no console 'Não foi possível obter o 
+      Pokémon';
+    - Os pokémons buscados devem ser: 'bulbasaur', 'charmander' e 'squirtle';
+    - Os requests devem ser sequenciais. Ou seja, um request só deve ser 
+      executado quando o request anterior for finalizado.
+*/
+
+/*
+  02
+
+  - Há algumas etapas, implementamos o método some, do zero;
+  - Neste exercício, seu desafio será criar o método map, do zero;
+  - Implemente uma função "map" que possui a mesma funcionalidade do método  
+    map original;
+  - Você não poderá utilizar o método map de array, embutido na linguagem;
+  - A assinatura da invocação desta função deve ser:
+    - map([1, 2, 3], number => number * 2) // [2, 4, 6];
+    - map([1, 2, 3], number => number * 3) // [3, 6, 9];
+  - Se você não se lembra como o método map funciona, há 2 opções:
+    1) Reassistir às seguintes aulas:
+      - "O método map" - Aula 01-02 da etapa 08;
+      - "Correção dos exercícios da aula 01 da etapa 08" - Aula 02-01 da etapa 
+        08;
+    2) Pesquisar no MDN.
+  
+  Reforço: este tipo de exercício será frequente em etapas mais avançadas do 
+  curso, onde falaremos sobre TDD. Vá se aquecendo =)
+*/
+
+/*
+  03
+
+  - Descomente o console.log abaixo e faça o this do método referenciar o 
+    objeto person.
+*/
+
+const person = {
+  name: 'Roger',
+  getName: () => this.name
+}
+
+// console.log(person.getName())
+
+/*
+  04
+
+  - Descomente a 2ª const abaixo e salve este arquivo;
+  - Um erro será exibido no console;
+  - Faça as duas const x coexistirem, sem modificar o nome de qualquer uma 
+    delas.
+*/
+
+const x = 'x'
+// const x = 'y'
+
+/*
+  05
+
+  - O código abaixo está funcionando. Refatore-o da forma mais concisa que você 
+    conseguir.
+*/
+
+const getFullName = (user) => {
+  const firstName = user.firstName
+  const lastName = user.lastName
+
+  return `${firstName} ${lastName}`
+}
+
+console.log(getFullName({ firstName: 'Afonso', lastName: 'Solano' }))
+
+/*
+  06
+
+  - Crie uma função chamada 'convertToHex', que recebe o nome de uma cor por 
+    parâmetro. Exemplo: 'red';
+  - Escolha 5 cores que serão convertidas do nome da cor para o seu
+    equivalente hexadecimal (pode ser qualquer tom);
+  - Verifique se a cor passada por parâmetro é algum hexa escolhido. Se for,
+    retorne a frase 'O hexadecimal para a cor COR é HEXADECIMAL';
+  - Se a cor passada por parâmetro não estiver entre as selecionadas, mostre
+    a mensagem 'Não temos o equivalente hexadecimal para COR';
+  - Exiba o hexadecimal de 8 cores diferentes usando a função criada acima.
+*/
+
+
+/*
+  07
+
+  - Através do array abaixo, gere um objeto com a frequência de idades das 
+    pessoas;
+  - Ou seja, se o array contém 3 pessoas com 18 anos, o objeto gerado deve ter 
+    uma propriedade 18 com o valor 3, se o array contém 2 pessoas com 19 anos,
+    o objeto gerado deve ter uma propriedade 19 com o valor 2 e assim por 
+    diante.
+  
+  Resultado desejado: { 18: 3, 19: 2, 20: 1 }
+
+  Dica: pesquise por Computed Property Names.
+*/
+
+const people = [
+  { id: 5 , name: 'Angelica', age: 18, federativeUnit: 'Pernambuco' },
+  { id: 81, name: 'Thales', age: 19, federativeUnit: 'São Paulo' },
+  { id: 47, name: 'Ana Carolina', age: 18, federativeUnit: 'Alagoas' },
+  { id: 87, name: 'Felipe', age: 18, federativeUnit: 'Minas Gerais' },
+  { id: 9 , name: 'Gabriel', age: 20, federativeUnit: 'São Paulo' },
+  { id: 73, name: 'Aline', age: 19, federativeUnit: 'Brasília' }
+]
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 29</title>
+</head>
+<body>
+  <h1>Exercício 29</h1>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
+  01
+
+  - Utilizando a fetch API, implemente uma função assíncrona que busca dados do 
+    seu perfil de usuário no GitHub, através do seguinte endpoint:
+    - https://api.github.com/users/SEU_NOME_DE_USUARIO_NO_GITHUB
+  - Implemente uma segunda função que exibe, no console, seus dados de usuário 
+    do GitHub.
+*/
+
+/*
+  02
+
+  - A partir do array numbers (abaixo), crie um novo array que contém somente 
+    os números do array numbers que são divisíveis por 2 ou 3;
+  - Exiba esse novo array no console.
+*/
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+/*
+  03
+
+  - Declare um array no qual cada item desse array seja uma sílaba do seu nome.
+  - A partir desse array, gere o seu nome usando a "língua do 'P'";
+  - A língua do "P" é uma brincadeira onde você coloca a letra "P" antes de 
+    cada sílaba de uma palavra falada, como se você estivesse falando em 
+    código;
+  - Exemplos de nomes na "língua do 'P'":
+    - Roger => "PRoPger";
+    - Natália => "PNaPtáPlia";
+    - Rafaela => "PRaPfaPePla".
+*/
+
+/*
+  04
+
+  - Declare uma constante que receba seu primeiro nome;
+  - Exiba no console todas as letras do seu nome separadas, com a seguinte
+    mensagem: '"LETRA" é a POSIÇÃOª letra do meu nome.';
+  - Por exemplo, se o nome é "Roger", as mensagens exibidas no console devem 
+    ser:
+      - "R" é a 1ª letra do meu nome;
+      - "o" é a 2ª letra do meu nome;
+      - E assim por diante, até a última letra.
+
+  Dica: pesquise pelo método split.
+*/
+
+/*
+  05
+
+  - Crie um objeto com as seguintes propriedades e tipos de valores:
+    - name: String
+    - lastname: String
+    - age: Number
+  - Exiba no console, em um array, todas as propriedades do objeto acima;
+  - Não use nenhuma estrutura de repetição, nem crie o array manualmente.
+
+  Dica: pesquise pelo método Object.keys().
+*/
+
+/*
+  06
+
+  - Implemente uma função que retorna as ocorrências de um determinado valor em 
+    um array;
+  - A função deve receber um array como 1º argumento e o valor a ser buscado no 
+    array como 2º argumento;
+  - Exemplo: se na invocação da função o array [1, 2, 3, 1] é passado como 1º 
+    argumento e o número 1 é passado como 2º argumento, a função deve retornar 
+    2, pois há duas ocorrências do número 1 no array;
+  - Utilize o array abaixo para testar a função.
+*/
+
+const scores = [100, 90, 85, 100, 60, 85, 100, 90, 55, 75, 60]
+
+/*
+  07
+
+  - Já implementamos o método some e o método map, do zero;
+  - Neste exercício, seu desafio será criar o método filter, do zero;
+  - Implemente uma função "filter" que possui a mesma funcionalidade do método  
+    filter original;
+  - Você não poderá utilizar o método filter original, embutido na linguagem;
+  - A assinatura e retorno da invocação desta função devem ser os seguintes:
+    - filter([1, 2, 3], item => item) // [1, 2, 3];
+    - filter([0, 1, 2], item => item) // [1, 2];
+    - filter([1, 2, 3], item => item < 2) // [1];
+    - filter([1, 2, 3, 5], (item, index) => item === index + 1) // [1, 2, 3];
+    - filter([1, 2, 3, 2, 1, 5], (item, index, array) =>
+        index === array.indexOf(item)) // [1, 2, 3, 5];
+  - Utilize os casos acima para testar sua função;
+  - Se você não se lembra como o método filter funciona, há 2 opções:
+    1) Reassistir à aula "O método filter" - Aula 01-03 da etapa 08;
+    2) Pesquisar no MDN.
+  
+  Dica: lembre-se que o método filter inclui o item em questão no novo array 
+  que está sendo gerado **apenas** se a função retorna um valor truthy.
+*/
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 31</title>
+</head>
+<body>
+  <h1>Exercício 31</h1>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
+  01
+
+  - Usando promises, faça um request para este endpoint:
+    https://jsonplaceholder.typicode.com/users
+  - Se o request estiver ok, exiba os objetos no console;
+  - Se o request não estiver ok, exiba no console "Não foi possível obter os 
+    dados dos usuários."
+*/
+
+/*
+  02
+
+  - Crie uma função chamada `calculator`, que funcione assim:
+    - A função deve receber um parâmetro que dirá qual operação matemática ela
+      vai efetuar. Será uma string com os valores `+`, `-`, `*`, `/` ou `%`;
+  - Essa função deve retornar uma segunda função que deve receber dois 
+    parâmetros;
+  - Esses dois parâmetros serão os operandos usados na operação matemática;
+  - O retorno dessa segunda função é a operação matemática completa, com a 
+    mensagem: "Resultado da operação: NUMERO_1 OPERADOR NUMERO_2 = RESULTADO."
+  - Se o operador não for válido, retorne a mensagem "Operação inválida."
+*/
+
+/*
+  03
+
+  - Crie 2 arrays, `sul` e `sudeste`, que serão as regiões do Brasil. Cada 
+    array deve conter os estados dessa região;
+  - Crie uma const chamada `brasil`, que irá receber as duas regiões 
+    concatenadas. Mostre o `brasil` no console;
+  - Adicione 3 novos estados da região Norte no início do array e mostre no 
+    console. Pesquise pelo método "unshift" no MDN;
+  - Remova o primeiro estado do array `brasil` e mostre-o no console;
+  - Crie um novo array chamado `newSul`, que recebe somente os estados do sul,
+    pegando do array `brasil`. Não remova esses itens de `brasil`.
+*/
+
+/*
+  04
+
+  - Crie um novo array chamado `nordeste`, que tenha os estados do nordeste;
+  - Remova de `brasil` os estados do `sudeste`, colocando-os em uma constante
+    chamada `newSudeste`. Pesquise pelo método "splice";
+  - Adicione os estados do `nordeste` ao array `brasil`. Esses estados devem
+    ficar no mesmo nível que os estados já existentes, não em um array separado;
+  - Percorra o array `brasil` e gere um novo array chamado `newBrasil`. Esse 
+    array deve ter cada item como um objeto, com as propriedades:
+      - `id`: que será o índice do array `brasil`;
+      - `estado`: que será o estado do array `brasil`;
+  - Percorra o array `brasil` e verifique se os estados tem mais de 7 letras 
+    cada, atribuindo o resultado à uma constante. Se tiver, mostre no console a 
+    mensagem "Sim, todos os estados tem mais de 7 letras.". Se não, mostre no 
+    console: "Nem todos os estados tem mais de 7 letras.". Pesquise pelo método 
+    every.
+*/
+
+/*
+  05
+
+  - Percorra o array `brasil` e verifique se o Ceará está incluído, atribuindo o
+    resultado à uma constante. Se esse estado existir no array, mostre no 
+    console "Ceará está incluído.". Se não, mostre "Ceará não foi incluído =/";
+  - Percorra o array `newBrasil` e crie um novo array que some 1 no ID de cada
+    objeto desse array, e adicione a frase abaixo na propriedade `estado`:
+    - "ESTADO pertence ao Brasil.";
+  - Atribua o novo array a uma constante;
+  - Filtre o array criado acima, retornando somente os estados que tiverem ID 
+    par. Atribua este novo array à uma constante.
+*/
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 30</title>
+</head>
+<body>
+  <h1>Exercício 30</h1>
+
+  <script src="./app.js"></script>
+</body>
+</html>
+  Neste exercício, vamos praticar um pouco do que vimos até aqui, através da 
+  API do GIPHY, que é um website de GIFs (https://giphy.com/).
+
+  - Seu desafio é implementar uma funcionalidade de busca dos GIFs. Quando o 
+    usuário digitar o termo de busca no input e pressionar enter, um GIF deve 
+    ser exibido na tela. Como neste exemplo: https://youtu.be/RHe-uCJGCeA
+  - Observe que o GIF mais recente é inserido acima dos GIFs anteriores;
+  - Para fazer requests para a API do GIPHY, você precisará de uma API key. 
+    Para obtê-la, siga os seguintes passos:
+    - Acesse https://developers.giphy.com/dashboard/ e faça o login;
+    - No Dashboard, clique em "Create an App", clique em "API Selected" e em 
+      "Next Step";
+    - Dê um nome e descrição para o app e crie-o;
+    - Clique no código da API key para copiá-la;
+  - O submit do form deve ser feito para o endpoint abaixo. Atente-se para os 2
+    [PLACEHOLDERS] que devem ser substituídos:
+    - https://api.giphy.com/v1/gifs/search?api_key=[SUA_CHAVE_DA_API_AQUI]&limit=1&q=[VALOR_INSERIDO_NO_INPUT]
+    - Se quiser testar outras possibilidades, os endpoints da API estão 
+      listados na documentação: https://developers.giphy.com/docs/api/endpoint#search
+  - Ignore os avisos no console. Para limpá-lo, pressione "ctrl + L".
+*/
+  Neste exercício, vamos praticar um pouco do que vimos até aqui, através da 
+  API do GIPHY, que é um website de GIFs (https://giphy.com/).
+
+  - Seu desafio é implementar uma funcionalidade de busca dos GIFs. Quando o 
+    usuário digitar o termo de busca no input e pressionar enter, um GIF deve 
+    ser exibido na tela. Como neste exemplo: https://youtu.be/RHe-uCJGCeA
+  - Observe que o GIF mais recente é inserido acima dos GIFs anteriores;
+  - Para fazer requests para a API do GIPHY, você precisará de uma API key. 
+    Para obtê-la, siga os seguintes passos:
+    - Acesse https://developers.giphy.com/dashboard/ e faça o login;
+    - No Dashboard, clique em "Create an App", clique em "API Selected" e em 
+      "Next Step";
+    - Dê um nome e descrição para o app e crie-o;
+    - Clique no código da API key para copiá-la;
+  - O submit do form deve ser feito para o endpoint abaixo. Atente-se para os 2
+    [PLACEHOLDERS] que devem ser substituídos:
+    - https://api.giphy.com/v1/gifs/search?api_key=[SUA_CHAVE_DA_API_AQUI]&limit=1&q=[VALOR_INSERIDO_NO_INPUT]
+    - Se quiser testar outras possibilidades, os endpoints da API estão 
+      listados na documentação: https://developers.giphy.com/docs/api/endpoint#search
+  - Ignore os avisos no console. Para limpá-lo, pressione "ctrl + L".
+*/
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <title>Testando a API do GIPHY</title>
+</head>
+<body>
+  <h1>Testando a API do GIPHY</h1>
+
+  <main>
+    <form>
+      <input id="search" type="search" autofocus />
+      <button id="btnSearch">Buscar</button>
+    </form>
+    
+    <div class="out"></div>
+  </main>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <title>Testando a API do GIPHY</title>
+</head>
+<body>
+  <h1>Testando a API do GIPHY</h1>
+
+  <main>
+    <form>
+      <input id="search" type="search" autofocus />
+      <button id="btnSearch">Buscar</button>
+    </form>
+    
+    <div class="out"></div>
+  </main>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
+  font-size: 20px;
+  line-height: 1.6;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+  font-size: 20px;
+  line-height: 1.6;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+  01
+
+  - Ao descomentar o código abaixo, um erro será lançado;
+  - Solucione esse problema sem declarar uma constante "book".
+*/
+
+// console.log(book)
+
+/*
+  02
+
+  - Implemente uma função que, ao ser invocada, recebe um array com 3 itens;
+  - A função deve retornar um novo array em que:
+    - O 1º item é o 3º item do array recebido por argumento;
+    - O 2º item é o 1º item do array recebido por argumento;
+  - Implemente a função da forma mais concisa que você conseguir.
+*/
+
+/*
+  03
+
+  - Em uma declaração, faça o destructuring apenas da propriedade 'name' do 
+    objeto com o id 3.
+*/
+
+const topics = [
+  { id: 1, name: 'Artes & cultura'},
+  { id: 2, name: 'Negócios & finanças'},
+  { id: 3, name: 'Carreiras'}
+]
+
+/*
+  04
+
+  - O 2º item do array abaixo contém as cores RGB;
+  - Em uma declaração, faça o destructuring dos valores desse item em 3 consts: 
+    'red', 'green' e 'blue'.
+*/
+
+const colors = ['#FF00FF', ['#FF0D0D', '#0AFA00', '#011EFA'], '#7BF0FF']
+
+/*
+  05
+
+  - Descomente o código abaixo e implemente a função greet;
+  - Observe que ela recebe 2 argumentos, um objeto e uma string;
+  - Dentro da declaração da função:
+    - Faça um destructuring no objeto recebido no 1º argumento;
+    - No destructuring, nomeie de forma dinâmica a const que você está 
+      declarando, usando o 2º argumento que a invocação da função recebeu.
+      Você já conhece a sintaxe que nomeia de forma dinâmica;
+    - Atribua "desconhecido" como valor default da const do destructuring;
+    - Faça a função retornar "Olá, meu nome é [NOME]!".
+*/
+
+// console.log(greet({ name: 'Roger' }, 'name'))
+// console.log(greet({}, 'personName'))
+
+/*
+  06
+
+  - O idioma da interface gráfica da aplicação que estamos construindo 
+    (Weather App) é pt-BR;
+  - Ao invocarmos a getCityWeather, observe que a propriedade "WeatherText" do 
+    objeto obtido armazena a descrição do clima em inglês: "cloudy", "rain", 
+    etc;
+  - Traduza os possíveis valores dessa propriedade;
+  - Não é necessário implementar condicionais, objetos, ou arrays para fazer
+    isso.
+*/
+
+/*
+  07
+
+  - Refatore o weather.js;
+  - Uma dica do que pode ser melhorado:
+    - A repetição dos requests pode ser eliminada por uma função genérica e 
+      reutilizável, responsável apenas por fazer requests.
+*/
+  01
+
+  - Ao descomentar o código abaixo, um erro será lançado;
+  - Solucione esse problema sem declarar uma constante "book".
+*/
+
+// console.log(book)
+
+/*
+  02
+
+  - Implemente uma função que, ao ser invocada, recebe um array com 3 itens;
+  - A função deve retornar um novo array em que:
+    - O 1º item é o 3º item do array recebido por argumento;
+    - O 2º item é o 1º item do array recebido por argumento;
+  - Implemente a função da forma mais concisa que você conseguir.
+*/
+
+/*
+  03
+
+  - Em uma declaração, faça o destructuring apenas da propriedade 'name' do 
+    objeto com o id 3.
+*/
+
+const topics = [
+  { id: 1, name: 'Artes & cultura'},
+  { id: 2, name: 'Negócios & finanças'},
+  { id: 3, name: 'Carreiras'}
+]
+
+/*
+  04
+
+  - O 2º item do array abaixo contém as cores RGB;
+  - Em uma declaração, faça o destructuring dos valores desse item em 3 consts: 
+    'red', 'green' e 'blue'.
+*/
+
+const colors = ['#FF00FF', ['#FF0D0D', '#0AFA00', '#011EFA'], '#7BF0FF']
+
+/*
+  05
+
+  - Descomente o código abaixo e implemente a função greet;
+  - Observe que ela recebe 2 argumentos, um objeto e uma string;
+  - Dentro da declaração da função:
+    - Faça um destructuring no objeto recebido no 1º argumento;
+    - No destructuring, nomeie de forma dinâmica a const que você está 
+      declarando, usando o 2º argumento que a invocação da função recebeu.
+      Você já conhece a sintaxe que nomeia de forma dinâmica;
+    - Atribua "desconhecido" como valor default da const do destructuring;
+    - Faça a função retornar "Olá, meu nome é [NOME]!".
+*/
+
+// console.log(greet({ name: 'Roger' }, 'name'))
+// console.log(greet({}, 'personName'))
+
+/*
+  06
+
+  - O idioma da interface gráfica da aplicação que estamos construindo 
+    (Weather App) é pt-BR;
+  - Ao invocarmos a getCityWeather, observe que a propriedade "WeatherText" do 
+    objeto obtido armazena a descrição do clima em inglês: "cloudy", "rain", 
+    etc;
+  - Traduza os possíveis valores dessa propriedade;
+  - Não é necessário implementar condicionais, objetos, ou arrays para fazer
+    isso.
+*/
+
+/*
+  07
+
+  - Refatore o weather.js;
+  - Uma dica do que pode ser melhorado:
+    - A repetição dos requests pode ser eliminada por uma função genérica e 
+      reutilizável, responsável apenas por fazer requests.
+*/
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio 33</title>
+</head>
+<body>
+  <script src="./app.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
+H(�
+  name: 'Rápido e devagar',
+  author: 'Daniel Kahneman',
+  pages: 608,
+  releaseYear: 2012,
+  publisher: 'Objetiva',
+  price: 44.90
+}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio 33</title>
+</head>
+<body>
+  <script src="./app.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
+  name: 'Rápido e devagar',
+  author: 'Daniel Kahneman',
+  pages: 608,
+  releaseYear: 2012,
+  publisher: 'Objetiva',
+  price: 44.90
+}
+  background: #233047;
+}
+
+.container {
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  background: #233047;
+}
+
+.container {
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 2.2rem;
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Weather Application</title>
+</head>
+<body>
+  <div class="container my-5 mx-auto">
+    <h1 class="text-light text-center my-4">Informações do Clima</h1>
+
+    <form data-js="change-location" class="my-4 text-center text-white-50">
+      <label for="city">Insira o nome de uma cidade</label>
+      <input class="form-control p-4" type="text" name="city" placeholder="Ex: Miami" autofocus>
+    </form>
+
+    <div class="card shadow-lg rounded">
+      <img data-js="time" src="https://via.placeholder.com/400x300" class="card-img-top">
+      
+      <div data-js="time-icon" class="bg-light mx-auto text-center"></div>
+      
+      <div data-js="weather-details" class="text-muted text-uppercase text-center">
+        <h5 class="my-3">Nome da Cidade</h5>
+        
+        <div class="my-3">Clima</div>
+        
+        <div class="display-4 my-4">
+          <span>00</span>
+          <span>&deg;C</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Weather Application</title>
+</head>
+<body>
+  <div class="container my-5 mx-auto">
+    <h1 class="text-light text-center my-4">Informações do Clima</h1>
+
+    <form data-js="change-location" class="my-4 text-center text-white-50">
+      <label for="city">Insira o nome de uma cidade</label>
+      <input class="form-control p-4" type="text" name="city" placeholder="Ex: Miami" autofocus>
+    </form>
+
+    <div class="card shadow-lg rounded">
+      <img data-js="time" src="https://via.placeholder.com/400x300" class="card-img-top">
+      
+      <div data-js="time-icon" class="bg-light mx-auto text-center"></div>
+      
+      <div data-js="weather-details" class="text-muted text-uppercase text-center">
+        <h5 class="my-3">Nome da Cidade</h5>
+        
+        <div class="my-3">Clima</div>
+        
+        <div class="display-4 my-4">
+          <span>00</span>
+          <span>&deg;C</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+  01
+
+  - Implemente uma função que recebe uma string por parâmetro e retorna a 
+    string invertida;
+    
+    Exemplos: 
+      - Se '123' é recebido por parâmetro, '321' deve ser retornado;
+      - Se 'abc' é recebido por parâmetro, 'cba' deve ser retornado;
+    
+  - Após implementar a função, implemente outra versão da função. Essa 2ª 
+    versão deve fazer o mesmo que a função anterior faz, mas de forma diferente.
+*/
+
+/*
+  02
+  
+  - Descubra o que o código abaixo está fazendo e refatore-o.
+*/
+
+const numbers = [5, 20, 7, 32, 47, 15, 83, 91, 27, 33]
+let foundNumber = false
+
+numbers.forEach(number => {
+  if (number === 15) {
+    foundNumber = true
+  }
+})
+
+console.log(foundNumber)
+
+/*
+  03
+
+  - Refatore o código da Weather Application implementado na última aula;
+  - Dicas do que pode ser refatorado:
+    - Substituir o if/else por um código mais elegante =D
+    - Isolar a manipulação do DOM em pequenas funções de responsabilidade única.
+*/
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 34</title>
+</head>
+<body>
+  <script src="./app.js"></script>
+</body>
+</html>
